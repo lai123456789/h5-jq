@@ -15,3 +15,42 @@
         };
     e.addEventListener&&(n.addEventListener(o,a,!1),e.addEventListener("DOMContentLoaded",a,!1))
 }(window);
+
+
+
+
+
+
+
+
+
+
+
+/***
+ * 关于小程序内嵌h5  页面样式可能会有变化 可考虑父组件加入以下代码  参考链接https://www.cnblogs.com/guoqiaoqiao/p/13027018.html
+ * (function(doc, win) {
+    var docEl = doc.documentElement,
+        isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+        dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
+        dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
+        dpr = 1,
+        scale = 1 / dpr,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+    docEl.dataset.dpr = dpr;
+    var metaEl = doc.createElement('meta');
+    metaEl.name = 'viewport';
+    metaEl.content = 'initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale;
+    docEl.firstElementChild.appendChild(metaEl);
+    var recalc = function() {
+        var width = docEl.clientWidth;
+        if (width / dpr > 750) {
+            width = 750 * dpr;
+        }
+        // 乘以100，px : rem = 100 : 1
+        docEl.style.fontSize = 100 * (width / 750) + 'px';
+    };
+    recalc()
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+})(document, window);
+ */

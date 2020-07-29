@@ -1,22 +1,26 @@
-body {
+html, body {
   margin: 0;
-  padding: 0; }
-  body .index-ctr {
-    width: 100%;
-    height: 100%; }
-    body .index-ctr .top {
+  padding: 0;
+  height: 100%; }
+  html .index-ctr, body .index-ctr {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem 0 0;
+    overflow: hidden; }
+    html .index-ctr .top, body .index-ctr .top {
       width: 100%;
       height: 4rem;
+      margin: -1rem 0 0;
       background-image: url("../image/mainTopBg.png");
       background-size: 100% 100%; }
-      body .index-ctr .top .top-content {
+      html .index-ctr .top .top-content, body .index-ctr .top .top-content {
         position: relative;
         width: 100%;
         height: 100%; }
-        body .index-ctr .top .top-content img {
+        html .index-ctr .top .top-content img, body .index-ctr .top .top-content img {
           width: 100%;
           height: 100%; }
-        body .index-ctr .top .top-content .indexDiv {
+        html .index-ctr .top .top-content .indexDiv, body .index-ctr .top .top-content .indexDiv {
           display: flex;
           width: 6.3rem;
           justify-content: space-between;
@@ -24,7 +28,7 @@ body {
           bottom: 0;
           left: 0;
           transform: translate(10%, -30%); }
-          body .index-ctr .top .top-content .indexDiv .leftDiv, body .index-ctr .top .top-content .indexDiv .rightDiv {
+          html .index-ctr .top .top-content .indexDiv .leftDiv, html .index-ctr .top .top-content .indexDiv .rightDiv, body .index-ctr .top .top-content .indexDiv .leftDiv, body .index-ctr .top .top-content .indexDiv .rightDiv {
             width: 3.04rem;
             height: 0.68rem;
             background: url("../image/blue_k.png");
@@ -32,17 +36,58 @@ body {
             display: flex;
             justify-content: center;
             align-items: center; }
-            body .index-ctr .top .top-content .indexDiv .leftDiv span, body .index-ctr .top .top-content .indexDiv .rightDiv span {
+            html .index-ctr .top .top-content .indexDiv .leftDiv span, html .index-ctr .top .top-content .indexDiv .rightDiv span, body .index-ctr .top .top-content .indexDiv .leftDiv span, body .index-ctr .top .top-content .indexDiv .rightDiv span {
               font-size: 0.3rem;
               color: white; }
-            body .index-ctr .top .top-content .indexDiv .leftDiv span:nth-of-type(2), body .index-ctr .top .top-content .indexDiv .rightDiv span:nth-of-type(2) {
+            html .index-ctr .top .top-content .indexDiv .leftDiv span:nth-of-type(2), html .index-ctr .top .top-content .indexDiv .rightDiv span:nth-of-type(2), body .index-ctr .top .top-content .indexDiv .leftDiv span:nth-of-type(2), body .index-ctr .top .top-content .indexDiv .rightDiv span:nth-of-type(2) {
               margin-left: 0.1rem;
               font-weight: bold; }
-    body .index-ctr .bottom {
+    html .index-ctr .bottom, body .index-ctr .bottom {
+      margin-top: -0.05rem;
       width: 100%;
       height: 100%;
-      position: absolute;
       background: url("../image/mainBottom.png");
       background-size: 100% 100%; }
+      html .index-ctr .bottom .b-content, body .index-ctr .bottom .b-content {
+        background: url("../image/paihang_k1.png");
+        background-size: 100% 100%;
+        width: 6.64rem;
+        margin: 0 auto;
+        padding-top: 0.9rem;
+        height: 7.06rem; }
+        html .index-ctr .bottom .b-content .b1, body .index-ctr .bottom .b-content .b1 {
+          background: url("../image/paihang_text.png");
+          background-size: 100% 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 0.56rem;
+          width: 5.56rem;
+          margin-top: -0.4rem;
+          margin-left: 0.5rem; }
+          html .index-ctr .bottom .b-content .b1 p, body .index-ctr .bottom .b-content .b1 p {
+            color: #FFD235; }
+          html .index-ctr .bottom .b-content .b1 p:nth-of-type(1), body .index-ctr .bottom .b-content .b1 p:nth-of-type(1) {
+            margin-left: -0.2rem; }
+          html .index-ctr .bottom .b-content .b1 p:nth-of-type(3), body .index-ctr .bottom .b-content .b1 p:nth-of-type(3) {
+            margin-right: -0.3rem; }
+        html .index-ctr .bottom .b-content .b2, body .index-ctr .bottom .b-content .b2 {
+          height: 80%;
+          width: 5.56rem;
+          margin-left: 0.5rem;
+          overflow-y: scroll;
+          overflow-x: hidden; }
+          html .index-ctr .bottom .b-content .b2 .b2-index, body .index-ctr .bottom .b-content .b2 .b2-index {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: -0.3rem; }
+            html .index-ctr .bottom .b-content .b2 .b2-index p, body .index-ctr .bottom .b-content .b2 .b2-index p {
+              color: white; }
+      html .index-ctr .bottom .bText, body .index-ctr .bottom .bText {
+        font-size: 0.24rem;
+        color: #90D7FF;
+        text-align: center;
+        padding-top: 0.2rem; }
 
 /*# sourceMappingURL=paihangbang.css.map */

@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eada082-39de-4b5c-8f83-1ef95bdc98b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/paihangbang.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/paihangbang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paihangbang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/zhishitiku.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/zhishitiku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhishitiku.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/当前排名@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/我的积分底框@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/排行版列表底框@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/积分排行榜@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/背景@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/paihangbang.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/paihangbang.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/paihangbang.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/paihangbang.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/paihangbang.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/paihangbang.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/mainBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/paihang_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/paihang_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/paihang_k.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paihangbang.html" beforeDir="false" afterPath="$PROJECT_DIR$/paihangbang.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +26,8 @@
       <list>
         <option value="Sass File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/成氏商城/净水器小程序/purifier-mp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -85,18 +81,42 @@
       <workItem from="1595981261581" duration="1727000" />
       <workItem from="1595988403627" duration="4923000" />
       <workItem from="1595995416135" duration="1693000" />
-      <workItem from="1595999219478" duration="11903000" />
+      <workItem from="1595999219478" duration="31403000" />
     </task>
+    <task id="LOCAL-00001" summary="新增页面结构">
+      <created>1596011711765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596011711765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增页面图片">
+      <created>1596011844299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596011844299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增页面结构" />
+    <MESSAGE value="新增页面图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增页面图片" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="203" key="#File_Watchers" timestamp="1595988565519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="447" y="203" key="#File_Watchers/0.0.1920.1050@0.0.1920.1050" timestamp="1595988565519" />
+    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1596011843404">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596011843404" />
     <state x="566" y="300" key="EditFileWatcherDialog" timestamp="1595988564315">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -109,9 +129,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595988439434" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1595995511875">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1596034032665">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595995511875" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596034032665" />
+    <state x="636" y="256" width="647" height="538" key="find.popup" timestamp="1596020678990">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="256" width="647" height="538" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1596020678990" />
+    <state x="667" y="315" key="git4idea.merge.GitPullDialog" timestamp="1596033819389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596033819389" />
   </component>
 </project>
