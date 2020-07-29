@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../image/mainTopBg.png") left top repeat;
+  background-size: 100% 100%; }
+  body .index-ctr {
+    width: 100%;
+    height: 100%; }
+    body .index-ctr .main {
+      position: relative;
+      z-index: 159766;
+      width: 100%;
+      height: 100%; }
+      body .index-ctr .main .van-popup {
+        background: transparent !important;
+        text-align: center; }
+        body .index-ctr .main .van-popup .chou1 {
+          width: 6.16rem;
+          height: 8.6rem; }
+        body .index-ctr .main .van-popup .chou2 {
+          width: 4.58rem;
+          height: 1.34rem; }
+      body .index-ctr .main .mainTop {
+        height: 60%;
+        width: 100%;
+        position: relative; }
+        body .index-ctr .main .mainTop .wendaImg {
+          position: absolute;
+          top: 0.5rem;
+          right: 0;
+          width: 1.51rem;
+          height: 0.56rem; }
+        body .index-ctr .main .mainTop .mainTopImg {
+          height: 100%;
+          width: 100%; }
+        body .index-ctr .main .mainTop .dengLeft, body .index-ctr .main .mainTop .dengRight {
+          position: absolute;
+          top: 2.9rem;
+          width: 0.12rem;
+          height: 0.76rem; }
+          body .index-ctr .main .mainTop .dengLeft img, body .index-ctr .main .mainTop .dengRight img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%; }
+        body .index-ctr .main .mainTop .dengLeft {
+          left: 0.53rem; }
+          body .index-ctr .main .mainTop .dengLeft img {
+            animation: glint 2s infinite forwards;
+            animation-delay: 1s; }
+@keyframes glint {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.7; }
+  100% {
+    opacity: 0; } }
+        body .index-ctr .main .mainTop .dengRight {
+          right: 0.64rem; }
+          body .index-ctr .main .mainTop .dengRight img {
+            animation: glint 2s infinite forwards; }
+@keyframes glint {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.7; }
+  100% {
+    opacity: 0; } }
+        body .index-ctr .main .mainTop .bigTextImg {
+          position: absolute;
+          top: 2.07rem;
+          left: 1.8rem;
+          width: 3.87rem;
+          height: 2.13rem;
+          animation: scale 2s linear; }
+@keyframes scale {
+  0% {
+    opacity: 0;
+    transform: scale(0.2); }
+  25% {
+    opacity: 0.2;
+    transform: scale(0.4); }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.6); }
+  75% {
+    opacity: 0.6;
+    transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+        body .index-ctr .main .mainTop .smallTextImg {
+          position: absolute;
+          top: 4.3rem;
+          left: 2rem;
+          width: 3.67rem;
+          height: 0.67rem; }
+        body .index-ctr .main .mainTop .jinbiImg {
+          position: absolute;
+          top: 4.8rem;
+          right: 1.8rem;
+          width: 0.44rem;
+          height: 0.48rem; }
+        body .index-ctr .main .mainTop .redImg {
+          position: absolute;
+          top: 5.3rem;
+          right: 2.5rem;
+          width: 0.3rem;
+          height: 0.38rem; }
+        body .index-ctr .main .mainTop .redBagImg {
+          position: absolute;
+          top: 3.5rem;
+          left: 1.2rem;
+          width: 0.94rem;
+          height: 0.89rem;
+          animation: trans 2s infinite linear;
+          animation-direction: alternate;
+          animation-delay: 2s; }
+@keyframes trans {
+  0% {
+    transform: translateY(50%); }
+  50% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(70%); } }
+        body .index-ctr .main .mainTop .weidati {
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          width: 5.2rem;
+          height: 1.18rem; }
+      body .index-ctr .main .mainBottom {
+        height: 40%;
+        width: 100%;
+        background-image: url("../image/mainBottom.png");
+        background-size: 100% 100%; }
+        body .index-ctr .main .mainBottom .bottomIndex {
+          height: 80%;
+          width: 100%;
+          font-size: 0;
+          text-align: center; }
+          body .index-ctr .main .mainBottom .bottomIndex img {
+            height: 30%;
+            width: 7.8rem; }
+          body .index-ctr .main .mainBottom .bottomIndex img:nth-of-type(1) {
+            height: 35%; }
+          body .index-ctr .main .mainBottom .bottomIndex img:nth-of-type(2) {
+            height: 9%;
+            margin-top: -0.1rem; }
+          body .index-ctr .main .mainBottom .bottomIndex img:nth-of-type(3) {
+            margin-top: -0.1rem; }
+        body .index-ctr .main .mainBottom .bText {
+          font-size: 0.16rem;
+          color: #90D7FF;
+          text-align: center;
+          padding-top: 0.2rem; }
+
+/*# sourceMappingURL=index.css.map */

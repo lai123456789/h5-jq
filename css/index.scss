@@ -1,0 +1,220 @@
+@function rem( $px ) {
+  @return $px/100 + rem;
+}
+body{
+  margin: 0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  //background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+  background: url("../image/mainTopBg.png") left top repeat;
+  background-size: 100% 100%;
+  .index-ctr {
+    width: 100%;
+    height: 100%;
+    .main{
+      position: relative;
+      z-index: 159766;
+      width: 100%;
+      height: 100%;
+      .van-popup{
+        background: transparent !important;
+        text-align: center;
+        .chou1{
+          width: rem(616);
+          height: rem(860);
+        }
+        .chou2{
+          width: rem(458);
+          height: rem(134);
+        }
+      }
+
+      .mainTop{
+        height: 60%;
+        width: 100%;
+        //background-image: url("../image/mainTopBg.png");
+        //background-size: 100% 100%;
+        position: relative;
+        .wendaImg{
+          position: absolute;
+          top: rem(50);
+          right: 0;
+          width: rem(151);
+          height: rem(56);
+        }
+        .mainTopImg{
+          height: 100%;
+          width: 100%;
+        }
+        .dengLeft,.dengRight{
+          position: absolute;
+          top: rem(290);
+          width: rem(12);
+          height: rem(76);
+          img{
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+
+          }
+        }
+        .dengLeft{
+          left: rem(53);
+          img{
+            animation: glint 2s infinite forwards;
+            animation-delay:1s;
+            @keyframes glint {
+              0%{
+                opacity: 0;
+              }
+              50%{
+                opacity: 0.7;
+              }
+              100%{
+                opacity: 0;
+              }
+            }
+          }
+        }
+        .dengRight{
+          right: rem(64);
+          img{
+            animation: glint 2s infinite forwards;
+            @keyframes glint {
+              0%{
+                opacity: 0;
+              }
+              50%{
+                opacity: 0.7;
+                //transform:scale(2);
+              }
+              100%{
+                opacity: 0;
+              }
+            }
+          }
+        }
+        .bigTextImg{
+          position: absolute;
+          top: rem(207);
+          left: rem(180);
+          width: rem(387);
+          height: rem(213);
+          animation: scale 2s linear;
+          //animation-delay:1s;
+          @keyframes scale {
+            0%{
+              opacity: 0;
+              transform: scale(0.2);
+            }
+            25%{
+              opacity: 0.2;
+              transform: scale(0.4);
+            }
+            50%{
+              opacity: 0.4;
+              transform: scale(0.6);
+            }
+            75%{
+              opacity: 0.6;
+              transform: scale(0.8);
+            }
+            100%{
+              opacity: 1;
+              transform: scale(1);
+            }
+          }
+        }
+        .smallTextImg{
+          position: absolute;
+          top: rem(430);
+          left: rem(200);
+          width: rem(367);
+          height: rem(67);
+        }
+        .jinbiImg{
+          position: absolute;
+          top: rem(480);
+          right: rem(180);
+          width: rem(44);
+          height: rem(48);
+        }
+        .redImg{
+          position: absolute;
+          top: rem(530);
+          right: rem(250);
+          width: rem(30);
+          height: rem(38);
+        }
+        .redBagImg{
+          position: absolute;
+          top: rem(350);
+          left: rem(120);
+          width: rem(94);
+          height: rem(89);
+          animation: trans 2s infinite linear;
+          animation-direction:alternate;//反向执行动画
+          animation-delay:2s;//延迟多少秒才执行动画
+          @keyframes trans {
+            0%{
+              transform: translateY(50%);
+            }
+            50%{
+              transform: translateY(0);
+            }
+            100%{
+              transform: translateY(70%);
+            }
+          }
+        }
+        .weidati{
+          position: absolute;
+          //top: 50%;
+          left: 50%;
+          bottom: 0;
+          transform: translate(-50%,-50%);
+          text-align: center;
+          width: rem(520);
+          height: rem(118);
+        }
+      }
+      .mainBottom{
+        height: 40%;
+        width: 100%;
+        background-image: url("../image/mainBottom.png");
+        background-size: 100% 100%;
+        .bottomIndex{
+          height: 80%;
+          width: 100%;
+          font-size: 0;
+          text-align: center;
+          img{
+            height: 30%;
+            width: rem(780);
+          }
+          img:nth-of-type(1){
+            height: 35%;
+          }
+          img:nth-of-type(2){
+            height: 9%;
+            margin-top: rem(-10);
+          }
+          img:nth-of-type(3){
+            margin-top: rem(-10);
+          }
+        }
+        .bText{
+          font-size: rem(16);
+          color: #90D7FF;
+          text-align: center;
+          padding-top: rem(20);
+        }
+      }
+
+    }
+
+  }
+
+}
