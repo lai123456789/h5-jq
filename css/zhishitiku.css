@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; }
+  body .index-ctr {
+    background-size: 100%;
+    z-index: 0 !important;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../image/zhishitikuBg.png") left top no-repeat;
+    background-size: 100% 100%;
+    text-align: center; }
+    body .index-ctr .content {
+      width: 100%;
+      height: 8.84rem;
+      position: relative; }
+      body .index-ctr .content .kuang-content {
+        position: absolute;
+        width: 5.1rem;
+        height: 6rem;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 126761486; }
+        body .index-ctr .content .kuang-content .k1 {
+          white-space: nowrap;
+          margin: 0 auto;
+          width: 2.45rem;
+          height: 0.34rem;
+          font-size: 0.36rem;
+          font-weight: 500;
+          color: #ffd235; }
+        body .index-ctr .content .kuang-content .k2 {
+          margin-top: 0.5rem;
+          text-align: left;
+          width: 5.11rem;
+          height: 1.19rem;
+          font-size: 0.28rem;
+          font-weight: 500;
+          color: white;
+          line-height: 0.46rem; }
+        body .index-ctr .content .kuang-content .k3 {
+          text-align: left;
+          margin-top: 1rem; }
+          body .index-ctr .content .kuang-content .k3 div {
+            margin: 0.31rem 0; }
+            body .index-ctr .content .kuang-content .k3 div label {
+              color: white;
+              font-size: 0.28rem; }
+          body .index-ctr .content .kuang-content .k3 div > .p input {
+            display: none; }
+          body .index-ctr .content .kuang-content .k3 div > .p label {
+            position: relative;
+            margin-right: 0.34rem; }
+          body .index-ctr .content .kuang-content .k3 div > .p label::before {
+            display: inline-block;
+            content: "";
+            width: 0.24rem;
+            height: 0.24rem;
+            border-radius: 50%;
+            border: 0.01rem solid #5686FF;
+            margin-right: 0.06rem;
+            vertical-align: bottom;
+            background: #5686FF;
+            box-shadow: 0 0.01rem 0.03rem 0 #00176a, 0.01rem 0.01rem 0.01rem 0 #d5e1ff; }
+          body .index-ctr .content .kuang-content .k3 div > .p input:checked + label::before {
+            background-color: #5686FF; }
+          body .index-ctr .content .kuang-content .k3 div > .p input:checked + label::after {
+            display: inline-block;
+            content: "";
+            width: 0.14rem;
+            height: 0.14rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 0.06rem;
+            bottom: 0.06rem;
+            background-color: #FFAF38; }
+      body .index-ctr .content .topImg {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 156789;
+        width: 100%;
+        height: 100%; }
+      body .index-ctr .content .bottomImg {
+        width: 4.58rem;
+        height: 1.34rem;
+        position: absolute;
+        top: 122%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    body .index-ctr .queding {
+      width: 4.58rem;
+      height: 1.34rem; }
+
+/*# sourceMappingURL=zhishitiku.css.map */
