@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,CAAC;EACC,SAAS,EAAE,IAAI",
+"sources": ["common.scss"],
+"names": [],
+"file": "common.css"
+}
