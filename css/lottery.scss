@@ -1,0 +1,138 @@
+@function rem($px) {
+  @return $px/100 + rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.lottery {
+  width: rem(750);
+  height: 100vh;
+  background: url("../image/mainTopBg.png") no-repeat;
+  background-size: 100% 100%;
+
+  main {
+    width: 100%;
+    height: 100%;
+    background: url("../image/lottery/lottery_bg.png") no-repeat;
+    background-size: 100% 100%;
+
+    .icon-one {
+      width: rem(75);
+      height: rem(46);
+      padding: rem(206) 0 rem(58) rem(600);
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .icon-two {
+      width: rem(94);
+      height: rem(89);
+      padding-left: rem(59);
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .icon-three {
+      width: rem(30);
+      height: rem(38);
+      padding: rem(40) 0 rem(67) rem(524);
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .lottery-list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: rem(360);
+      margin: 0 auto;
+    }
+
+    .item-lot {
+      width: rem(164);
+      height: rem(166);
+      margin-bottom: rem(15);
+      padding: rem(2);
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .tip-button {
+      width: rem(520);
+      height: rem(118);
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .active {
+    border: rem(5) solid #11e6fd;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .lottery-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba($color: #000000, $alpha: 0.72);
+    width: 100%;
+    height: 100%;
+
+    .winImg {
+      width: rem(636);
+      height: rem(636);
+      margin: rem(233) auto 0 auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .noWinImg {
+      width: rem(480);
+      height: rem(580);
+      margin: rem(283) auto 0 auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .close {
+      width: rem(102);
+      height: rem(102);
+      margin: rem(12) auto 0 auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

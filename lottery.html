@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>安全知识有奖问答</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/lottery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.0/animate.compat.css"
+    />
+    <!--链接对应页面的css-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/lottery.js"></script>
+    <!--链接对应页面的js-->
+  </head>
+  <body>
+    <div class="lottery">
+      <main>
+        <div class="icon-one">
+          <img src="image/lottery/iconOne.png" />
+        </div>
+        <div class="icon-two">
+          <img src="image/lottery/iconTwo.png" />
+        </div>
+        <div class="lottery-list">
+          <div class="item-lot">
+            <img src="image/lottery/redBack.png" />
+          </div>
+          <div class="item-lot">
+            <img src="image/lottery/redBack.png" />
+          </div>
+          <div class="item-lot">
+            <img src="image/lottery/redBack.png" />
+          </div>
+          <div class="item-lot">
+            <img src="image/lottery/redBack.png" />
+          </div>
+        </div>
+        <div class="icon-three">
+          <img src="image/lottery/iconThree.png" />
+        </div>
+        <div class="tip-button" id="tipBut">
+          <img src="image/lottery/unTip_button.png" />
+        </div>
+      </main>
+
+      <!-- 中奖弹窗 -->
+      <div class="lottery-modal hide fadeIn animated" id="winModal">
+        <div class="winImg">
+          <img src="image/lottery/win1.png" />
+        </div>
+        <div class="close" id="close">
+          <img src="image/lottery/close.png" />
+        </div>
+      </div>
+
+      <!-- 无奖弹窗 -->
+      <div class="lottery-modal hide fadeIn animated" id="noWinModal">
+        <div class="noWinImg">
+          <img src="image/lottery/nowin.png" />
+        </div>
+        <div class="close" id="close2">
+          <img src="image/lottery/close.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
