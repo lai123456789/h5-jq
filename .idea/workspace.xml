@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eada082-39de-4b5c-8f83-1ef95bdc98b5" name="Default Changelist" comment="" />
+    <list default="true" id="3eada082-39de-4b5c-8f83-1ef95bdc98b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/paihangbang.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/paihangbang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paihangbang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/当前排名@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/我的积分底框@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/排行版列表底框@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/积分排行榜@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/背景@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +28,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Sass File" />
-        <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fJlv3xwjPXFVbigipcPe1E69xp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,10 +49,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Ruby26-x64/bin/scss.bat" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="F:/成氏商城/净水器小程序/purifier-mp" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\项目\H5_jq_project" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h5+jq/index.html" useBuiltInWebServerPort="true">
@@ -54,6 +84,8 @@
       <workItem from="1595946417296" duration="3015000" />
       <workItem from="1595981261581" duration="1727000" />
       <workItem from="1595988403627" duration="4923000" />
+      <workItem from="1595995416135" duration="1693000" />
+      <workItem from="1595999219478" duration="11903000" />
     </task>
     <servers />
   </component>
@@ -69,13 +101,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="566" y="300" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595988564315" />
-    <state x="674" y="260" key="FileChooserDialogImpl" timestamp="1595988560293">
+    <state x="674" y="260" key="FileChooserDialogImpl" timestamp="1596009628944">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="674" y="260" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1595988560293" />
+    <state x="674" y="260" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1596009628944" />
     <state x="461" y="156" key="SettingsEditor" timestamp="1595988439434">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595988439434" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1595995511875">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595995511875" />
   </component>
 </project>

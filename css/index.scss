@@ -6,9 +6,7 @@ body{
   padding:0;
   width: 100%;
   height: 100%;
-  //background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
-  background: url("../image/mainTopBg.png") left top repeat;
-  background-size: 100% 100%;
+  background: url("../image/mainTopBg.png") left top no-repeat;
   .index-ctr {
     width: 100%;
     height: 100%;
@@ -31,9 +29,10 @@ body{
       }
 
       .mainTop{
+        font-size: 0;
         height: 60%;
         width: 100%;
-        //background-image: url("../image/mainTopBg.png");
+        //background: url("../image/mainTopBg.png") left top repeat;
         //background-size: 100% 100%;
         position: relative;
         .wendaImg{
@@ -173,48 +172,115 @@ body{
           position: absolute;
           //top: 50%;
           left: 50%;
-          bottom: 0;
+          bottom: rem(-13);
           transform: translate(-50%,-50%);
           text-align: center;
           width: rem(520);
           height: rem(118);
         }
       }
-      .mainBottom{
-        height: 40%;
-        width: 100%;
-        background-image: url("../image/mainBottom.png");
-        background-size: 100% 100%;
-        .bottomIndex{
-          height: 80%;
-          width: 100%;
-          font-size: 0;
-          text-align: center;
-          img{
-            height: 30%;
-            width: rem(780);
-          }
-          img:nth-of-type(1){
-            height: 35%;
-          }
-          img:nth-of-type(2){
-            height: 9%;
-            margin-top: rem(-10);
-          }
-          img:nth-of-type(3){
-            margin-top: rem(-10);
-          }
-        }
-        .bText{
-          font-size: rem(16);
-          color: #90D7FF;
-          text-align: center;
-          padding-top: rem(20);
-        }
-      }
 
     }
-
+    .mainBottom{
+      height: 40%;
+      width: 100%;
+      background-image: url("../image/mainBottom.png");
+      background-size: 100% 100%;
+      position: absolute;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      //bottom: 0;
+      .bottomIndex{
+        height: 80%;
+        width: 100%;
+        font-size: 0;
+        text-align: center;
+        img{
+          height: 30%;
+          width: rem(780);
+        }
+        img:nth-of-type(1){
+          height: 35%;
+        }
+        img:nth-of-type(2){
+          height: 9%;
+          margin-top: rem(-10);
+        }
+        img:nth-of-type(3){
+          margin-top: rem(-10);
+        }
+      }
+      .bText{
+        font-size: rem(24);
+        color: #90D7FF;
+        text-align: center;
+        padding-top: rem(20);
+      }
+    }
   }
-
 }
+
+/*弹窗样式start*/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif
+}
+.modal>input {
+  display: none;
+}
+.modal>input~* {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0
+}
+.modal .overlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  margin: 0;
+  border-radius: 0;
+  background: rgba(17, 17, 17, 0.6);
+  transition: all 0.3s;
+  z-index: 100000;
+}
+
+.modal .overlay~* {
+  border: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) scale(0.2, 0.2);
+  z-index: 1000000;
+  transition: all .3s ease;
+}
+.main-modal { /*这里修改弹窗内容样式即可*/
+  background: transparent;
+  padding: 10px;
+  text-align: center;
+  .chou1{
+    width: rem(616);
+    height: rem(860);
+  }
+  .chou2{
+    width: rem(458);
+    height: rem(134);
+  }
+}
+.modal>input:checked~* {
+  display: block;
+  opacity: 1;
+  max-height: 10000px;
+}
+.modal>input:checked~.overlay~* {
+  max-height: 90%;
+  overflow: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1, 1);
+  transform: translateX(-50%) translateY(-50%) scale(1, 1);
+}
+/*弹窗样式end*/
+
+

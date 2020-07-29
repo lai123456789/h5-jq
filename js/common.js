@@ -1,5 +1,8 @@
 /*换算比例1rem=100px
-* 750可以换成对应UI设计稿的尺寸  参考链接：https://www.cnblogs.com/agansj/p/8243880.html  https://www.jianshu.com/p/21f30c808198*/
+* 750可以换成对应UI设计稿的尺寸  参考链接：
+* 1、本项目选用该方案：https://www.cnblogs.com/agansj/p/8243880.html
+* 2、参考方案 https://www.jianshu.com/p/21f30c808198
+* 3、参考方案 https://juejin.im/post/5ad4bcdd6fb9a028e33bedab  rem+vw*/
 !function(n){
     var  e=n.document,
         t=e.documentElement,
