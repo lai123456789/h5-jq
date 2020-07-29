@@ -1,15 +1,19 @@
 @function rem( $px ) {
   @return $px/100 + rem;
 }
-body{
+html,body{
   margin: 0;
   padding: 0;
+  height: 100%;
   .index-ctr{
-    width: 100%;
     height: 100%;
+    box-sizing: border-box;
+    padding: rem(100) 0 0;
+    overflow: hidden;
     .top{
       width: 100%;
       height: rem(400);
+      margin: rem(-100) 0 0;
       background-image: url("../image/mainTopBg.png");
       background-size: 100% 100%;
       .top-content{
@@ -50,12 +54,63 @@ body{
       }
     }
     .bottom{
+      margin-top: rem(-5);
       width: 100%;
       height: 100%;
-      position: absolute;
       background: url("../image/mainBottom.png");
       background-size: 100% 100%;
-      //height: rem(1044);
+      .b-content{
+        background: url("../image/paihang_k1.png");
+        background-size: 100% 100%;
+        width: rem(664);
+        margin: 0 auto;
+        padding-top: rem(90);
+        height: rem(706);
+        .b1{
+          background: url("../image/paihang_text.png");
+          background-size: 100% 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: rem(56);
+          width: rem(556);
+          margin-top: rem(-40);
+          margin-left: rem(50);
+          p{
+            color: #FFD235;
+          }
+          p:nth-of-type(1){
+             margin-left: rem(-20);
+           }
+          p:nth-of-type(3){
+            margin-right: rem(-30);
+          }
+        }
+        .b2{
+          //height: rem(600);
+          height: 80%;
+          width: rem(556);
+          margin-left: rem(50);
+          overflow-y: scroll;
+          overflow-x: hidden;
+          .b2-index{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: rem(-30);
+            p{
+              color: white;
+            }
+            //margin: rem(40) 0;
+          }
+        }
+      }
+      .bText{
+        font-size: rem(24);
+        color: #90D7FF;
+        text-align: center;
+        padding-top: rem(20);
+      }
     }
   }
 }
