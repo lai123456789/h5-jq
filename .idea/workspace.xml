@@ -4,11 +4,10 @@
     <list default="true" id="3eada082-39de-4b5c-8f83-1ef95bdc98b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lottery.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/lottery.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/zhishitiku.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/zhishitiku.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/zhishitiku.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/zhishitiku.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/zhishitiku.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhishitiku.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhishitiku.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Ruby26-x64/bin/scss.bat" />
+    <property name="last_opened_file_path" value="D:/Ruby26-x64/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -49,6 +48,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\项目\H5_jq_project" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h5+jq/index.html" useBuiltInWebServerPort="true">

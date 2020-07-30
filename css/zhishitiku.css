@@ -157,8 +157,10 @@ body {
       z-index: 1000; }
       .main-modal .fail-content .modalText div:nth-of-type(1) {
         position: absolute;
-        top: 74%;
-        line-height: 0.48rem; }
+        line-height: 0.3rem;
+        top: 62%;
+        left: -15%;
+        transform: translate(-50, -50%); }
         .main-modal .fail-content .modalText div:nth-of-type(1) p {
           font-size: 0.32rem;
           font-weight: bold;
@@ -167,7 +169,11 @@ body {
         text-align: left;
         width: 4.44rem;
         font-weight: 500;
-        line-height: 0.36rem; }
+        line-height: 0.36rem;
+        position: absolute;
+        top: 80%;
+        left: 12%;
+        transform: translate(-50, -50%); }
         .main-modal .fail-content .modalText div:nth-of-type(2) p {
           margin-top: 0.07rem; }
           .main-modal .fail-content .modalText div:nth-of-type(2) p span {
@@ -188,10 +194,7 @@ body {
       top: 5%; }
     .main-modal .fail-content div {
       width: 7.16rem;
-      height: 1.34rem;
-      display: flex;
-      justify-content: center;
-      position: absolute;
+      height: 1.33rem;
       bottom: 0;
       top: 82%; }
       .main-modal .fail-content div img {

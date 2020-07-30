@@ -195,8 +195,10 @@ body{
       z-index: 1000;
       div:nth-of-type(1){
         position: absolute;
-        top: 74%;
-        line-height:rem(48);
+        line-height:rem(30);
+        top: 62%;
+        left: -15%;
+        transform: translate(-50,-50%);
         p{
           font-size:rem(32);
           font-weight:bold;
@@ -209,6 +211,10 @@ body{
         //height:rem(131);
         font-weight:500;
         line-height:rem(36);
+        position: absolute;
+        top: 80%;
+        left: 12%;
+        transform: translate(-50,-50%);
         p{
           margin-top: rem(7);
           span{
@@ -235,10 +241,10 @@ body{
     }
     div{
       width: rem(716);
-      height: rem(134);
-      display: flex;
-      justify-content: center;
-      position: absolute;
+      height: rem(133);
+      //display: flex;
+      //justify-content: center;
+      //position: absolute;
       bottom: 0;
       top: 82%;
       img{
