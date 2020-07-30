@@ -22,8 +22,8 @@ body {
       body .index-ctr .content .kuang-content {
         position: absolute;
         width: 5.1rem;
-        height: 6rem;
-        top: 62%;
+        height: 7rem;
+        top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 126761486; }
@@ -46,40 +46,45 @@ body {
           line-height: 0.46rem; }
         body .index-ctr .content .kuang-content .k3 {
           text-align: left;
-          margin-top: 1rem; }
-          body .index-ctr .content .kuang-content .k3 div {
-            margin: 0.3rem 0; }
-            body .index-ctr .content .kuang-content .k3 div label {
-              color: white;
-              font-size: 0.28rem; }
-          body .index-ctr .content .kuang-content .k3 div > input::after {
-            display: none; }
-          body .index-ctr .content .kuang-content .k3 div > label {
+          margin-top: 0.7rem; }
+          body .index-ctr .content .kuang-content .k3 ul li {
             position: relative;
-            margin-right: 0.34rem; }
-          body .index-ctr .content .kuang-content .k3 div > label::before {
-            display: inline-block;
-            content: "";
-            width: 0.24rem;
-            height: 0.24rem;
+            list-style: none;
+            display: flex;
+            margin: 0.3rem 0 0.3rem -0.9rem; }
+          body .index-ctr .content .kuang-content .k3 ul .my-radio {
+            position: relative;
+            z-index: 100;
+            margin-right: 0.1rem; }
+          body .index-ctr .content .kuang-content .k3 ul .my-radio:checked::after {
+            content: ''; }
+          body .index-ctr .content .kuang-content .k3 ul .my-radio::before {
+            content: '';
+            position: absolute;
+            width: 0.3rem;
+            height: 0.3rem;
             border-radius: 50%;
-            border: 0.01rem solid #5686FF;
-            margin-right: 0.06rem;
-            vertical-align: bottom;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             background: #5686FF;
             box-shadow: 0 0.01rem 0.03rem 0 #00176a, 0.01rem 0.01rem 0.01rem 0 #d5e1ff; }
-          body .index-ctr .content .kuang-content .k3 div > input:checked + label::before {
-            background-color: #5686FF; }
-          body .index-ctr .content .kuang-content .k3 div > input:checked + label::after {
-            display: inline-block;
-            content: "";
-            width: 0.14rem;
-            height: 0.14rem;
-            border-radius: 50%;
+          body .index-ctr .content .kuang-content .k3 ul .my-radio::after {
             position: absolute;
-            left: 0.06rem;
-            bottom: 0.06rem;
-            background-color: #FFAF38; }
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #FFAF38;
+            width: 0.2rem;
+            height: 0.2rem;
+            border-radius: 50%; }
+          body .index-ctr .content .kuang-content .k3 ul .radio-label {
+            font-size: 0.28rem;
+            color: white;
+            display: inline-block;
+            width: 4.2rem;
+            left: 0.5rem;
+            top: 0; }
       body .index-ctr .content .topImg {
         position: absolute;
         top: 65%;
@@ -95,8 +100,13 @@ body {
         top: 122%;
         left: 50%;
         transform: translate(-50%, -50%); }
-    body .index-ctr .queding {
-      width: 4.58rem;
-      height: 1.34rem; }
+    body .index-ctr .bText {
+      width: 100%;
+      font-size: 0.24rem;
+      margin: 0 auto;
+      color: #90D7FF;
+      padding-bottom: 0.5rem;
+      position: absolute;
+      bottom: 0; }
 
 /*# sourceMappingURL=zhishitiku.css.map */
