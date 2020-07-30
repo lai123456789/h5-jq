@@ -195,6 +195,7 @@ body {
     .main-modal .fail-content div {
       width: 7.16rem;
       height: 1.33rem;
+      position: absolute;
       bottom: 0;
       top: 82%; }
       .main-modal .fail-content div img {

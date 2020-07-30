@@ -68,13 +68,11 @@
             <input type="checkbox" name="" id="modal_1">
             <label  class="overlay"></label>
             <div class="main-modal">
-                <div class="fail-content"> <!--答题失败主体内容-->
-                    <img src="image/fail_bg.png" alt="" class="failBg">
+                <!--答题成功 -->
+                <div class="main-content"> <!--答题成功主体内容-->
+                    <img src="image/success.png" alt="" class="successBg">
                     <div class="modalText">
-                        <div>
-                            <p>不好意思，答题失败，</p>
-                            <p>请关注下期答题时间，再接再厉！</p>
-                        </div>
+                        <div>恭喜你，答对本期全部题目！</div>
                         <div>
                             <p>
                                 <span>目前你已获得积分</span>
@@ -89,16 +87,24 @@
                     <label for="modal_1" ><img src="image/close.png" alt="" class="close"></label>
                     <div>
                         <a href="index.html">
-                            <img src="image/fail_backhome.png" alt="" class="backhome">
+                            <img src="image/backhome.png" alt="" class="backhome">
                         </a>
                         <img src="image/share.png" alt="" class="share">
                     </div>
                 </div>
+                <div class="share-content" style="display: none"><!--答题成功主体内容下面按钮 分享有礼内容块-->
+                    <img src="image/shareImg1.png" alt="">
+                    <img src="image/shareImgText.png" alt="">
+                </div>
 
-<!--                <div class="main-content"> &lt;!&ndash;答题成功主体内容&ndash;&gt;-->
-<!--                    <img src="image/success.png" alt="" class="successBg">-->
+<!--                答题失败  显示下面这块  上面那块答题成功部分    代码可以注释-->
+<!--                <div class="fail-content"> &lt;!&ndash;答题失败主体内容&ndash;&gt;-->
+<!--                    <img src="image/fail_bg.png" alt="" class="failBg">-->
 <!--                    <div class="modalText">-->
-<!--                        <div>恭喜你，答对本期全部题目！</div>-->
+<!--                        <div>-->
+<!--                            <p>不好意思，答题失败，</p>-->
+<!--                            <p>请关注下期答题时间，再接再厉！</p>-->
+<!--                        </div>-->
 <!--                        <div>-->
 <!--                            <p>-->
 <!--                                <span>目前你已获得积分</span>-->
@@ -113,15 +119,12 @@
 <!--                    <label for="modal_1" ><img src="image/close.png" alt="" class="close"></label>-->
 <!--                    <div>-->
 <!--                        <a href="index.html">-->
-<!--                            <img src="image/backhome.png" alt="" class="backhome">-->
+<!--                            <img src="image/fail_backhome.png" alt="" class="failbackhome">-->
 <!--                        </a>-->
-<!--                        <img src="image/share.png" alt="" class="share">-->
 <!--                    </div>-->
 <!--                </div>-->
-<!--                <div class="share-content" style="display: none">&lt;!&ndash;答题成功主体内容下面按钮 分享有礼内容块&ndash;&gt;-->
-<!--                    <img src="image/shareImg1.png" alt="">-->
-<!--                    <img src="image/shareImgText.png" alt="">-->
-<!--                </div>-->
+
+
             </div>
         </div>
         <label for="modal_1"><img src="image/zhishitikuSure.png" alt="" class="bottomImg"></label><!--点击弹窗调用-->

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eada082-39de-4b5c-8f83-1ef95bdc98b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/lottery.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/lottery.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/zhishitiku.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/zhishitiku.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/zhishitiku.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhishitiku.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhishitiku.html" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +89,7 @@
       <workItem from="1595999219478" duration="31403000" />
       <workItem from="1596069983313" duration="1873000" />
       <workItem from="1596101015798" duration="4612000" />
+      <workItem from="1596118060438" duration="1333000" />
     </task>
     <task id="LOCAL-00001" summary="新增页面结构">
       <created>1596011711765</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596090145896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完善页面">
+      <created>1596110894298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596110894299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +142,8 @@
     <MESSAGE value="新增页面结构" />
     <MESSAGE value="新增页面图片" />
     <MESSAGE value="新增单选题多选题页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增单选题多选题页面" />
+    <MESSAGE value="完善页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="203" key="#File_Watchers" timestamp="1595988565519">
