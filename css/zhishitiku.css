@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -26,7 +27,7 @@ body {
         top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 126761486; }
+        z-index: 1000; }
         body .index-ctr .content .kuang-content .k1 {
           white-space: nowrap;
           margin: 0 auto;
@@ -90,7 +91,7 @@ body {
         top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 156789;
+        z-index: 100;
         width: 100%;
         height: 100%; }
       body .index-ctr .content .bottomImg {
@@ -108,5 +109,177 @@ body {
       padding-bottom: 0.5rem;
       position: absolute;
       bottom: 0; }
+
+/*弹窗样式start*/
+.modal > input {
+  display: none; }
+
+.modal > input ~ * {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0; }
+
+.modal .overlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  margin: 0;
+  border-radius: 0;
+  background: rgba(17, 17, 17, 0.7);
+  transition: all 0.3s;
+  z-index: 100000; }
+
+.modal .overlay ~ * {
+  border: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) scale(0.2, 0.2);
+  z-index: 1000000;
+  transition: all .3s ease; }
+
+.main-modal {
+  /*这里修改弹窗内容样式即可*/ }
+  .main-modal .fail-content {
+    text-align: center;
+    position: relative;
+    width: 7.16rem;
+    height: 9.7rem; }
+    .main-modal .fail-content .modalText {
+      position: absolute;
+      width: 5.1rem;
+      height: 7rem;
+      top: 34%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1000; }
+      .main-modal .fail-content .modalText div:nth-of-type(1) {
+        position: absolute;
+        top: 74%;
+        line-height: 0.48rem; }
+        .main-modal .fail-content .modalText div:nth-of-type(1) p {
+          font-size: 0.32rem;
+          font-weight: bold;
+          color: white; }
+      .main-modal .fail-content .modalText div:nth-of-type(2) {
+        text-align: left;
+        width: 4.44rem;
+        font-weight: 500;
+        line-height: 0.36rem; }
+        .main-modal .fail-content .modalText div:nth-of-type(2) p {
+          margin-top: 0.07rem; }
+          .main-modal .fail-content .modalText div:nth-of-type(2) p span {
+            font-size: 0.24rem;
+            color: white; }
+    .main-modal .fail-content .failBg {
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+      width: 6.16rem;
+      height: 7.2rem; }
+    .main-modal .fail-content .close {
+      width: 0.86rem;
+      height: 0.86rem;
+      position: absolute;
+      right: 2%;
+      top: 5%; }
+    .main-modal .fail-content div {
+      width: 7.16rem;
+      height: 1.34rem;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      top: 82%; }
+      .main-modal .fail-content div img {
+        width: 2.94rem;
+        height: 100%; }
+  .main-modal .main-content {
+    text-align: center;
+    position: relative;
+    width: 7.16rem;
+    height: 9.7rem; }
+    .main-modal .main-content .modalText {
+      position: absolute;
+      width: 5.1rem;
+      height: 7rem;
+      top: 34%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1000; }
+      .main-modal .main-content .modalText div:nth-of-type(1) {
+        position: absolute;
+        top: 74%;
+        font-size: 0.32rem;
+        font-weight: bold;
+        color: white;
+        line-height: 0.48rem; }
+      .main-modal .main-content .modalText div:nth-of-type(2) {
+        text-align: left;
+        width: 4.44rem;
+        font-weight: 500;
+        line-height: 0.36rem; }
+        .main-modal .main-content .modalText div:nth-of-type(2) p {
+          margin-top: 0.07rem; }
+          .main-modal .main-content .modalText div:nth-of-type(2) p span {
+            font-size: 0.24rem;
+            color: white; }
+    .main-modal .main-content .successBg {
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+      width: 6.16rem;
+      height: 7.2rem; }
+    .main-modal .main-content .close {
+      width: 0.86rem;
+      height: 0.86rem;
+      position: absolute;
+      right: 2%;
+      top: 5%; }
+    .main-modal .main-content div {
+      width: 7.16rem;
+      height: 1.34rem;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      top: 82%; }
+      .main-modal .main-content div img {
+        width: 2.94rem;
+        height: 100%; }
+  .main-modal .share-content {
+    text-align: center;
+    position: relative;
+    width: 7.16rem;
+    height: 12rem; }
+    .main-modal .share-content img:nth-of-type(1) {
+      width: 1.23rem;
+      height: 1.48rem;
+      position: absolute;
+      top: 0;
+      right: 0.5rem; }
+    .main-modal .share-content img:nth-of-type(2) {
+      width: 3.12rem;
+      height: 1.16rem;
+      position: absolute;
+      top: 14%;
+      right: 1.5rem; }
+
+.modal > input:checked ~ * {
+  display: block;
+  opacity: 1;
+  max-height: 10000px; }
+
+.modal > input:checked ~ .overlay ~ * {
+  max-height: 90%;
+  overflow: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1, 1);
+  transform: translateX(-50%) translateY(-50%) scale(1, 1); }
+
+/*弹窗样式end*/
 
 /*# sourceMappingURL=zhishitiku.css.map */

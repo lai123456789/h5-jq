@@ -31,7 +31,7 @@ body{
         top: 65%;
         left: 50%;
         transform: translate(-50%,-50%);
-        z-index: 126761486;
+        z-index: 1000;
         .k1{
           white-space: nowrap;
           margin: 0 auto;
@@ -115,7 +115,7 @@ body{
         top: 65%;
         left: 50%;
         transform: translate(-50%,-50%);
-        z-index: 156789;
+        z-index: 100;
         width: 100%;
         height: 100%;
       }
@@ -139,4 +139,215 @@ body{
     }
 
   }
+
 }
+/*弹窗样式start*/
+//* {
+//  margin: 0;
+//  padding: 0;
+//  font-size: 14px;
+//  font-family: Arial, Helvetica, sans-serif
+//}
+.modal>input {
+  display: none;
+}
+.modal>input~* {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0
+}
+.modal .overlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  margin: 0;
+  border-radius: 0;
+  background: rgba(17, 17, 17, 0.7);
+  transition: all 0.3s;
+  z-index: 100000;
+}
+
+.modal .overlay~* {
+  border: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) scale(0.2, 0.2);
+  z-index: 1000000;
+  transition: all .3s ease;
+  //background: green;
+}
+.main-modal { /*这里修改弹窗内容样式即可*/
+  .fail-content{
+    text-align: center;
+    position: relative;
+    width: rem(716);
+    height: rem(970);
+    .modalText{
+      position: absolute;
+      width: rem(510);
+      height: rem(700);
+      top: 34%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 1000;
+      div:nth-of-type(1){
+        position: absolute;
+        top: 74%;
+        line-height:rem(48);
+        p{
+          font-size:rem(32);
+          font-weight:bold;
+          color:rgba(255,255,255,1);
+        }
+      }
+      div:nth-of-type(2){
+        text-align: left;
+        width:rem(444);
+        //height:rem(131);
+        font-weight:500;
+        line-height:rem(36);
+        p{
+          margin-top: rem(7);
+          span{
+            font-size:rem(24);
+            color:rgba(255,255,255,1);
+          }
+        }
+      }
+    }
+    .failBg{
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%,-50%);
+      width: rem(616);
+      height: rem(720);
+    }
+    .close{
+      width: rem(86);
+      height: rem(86);
+      position: absolute;
+      right:2%;
+      top: 5%;
+    }
+    div{
+      width: rem(716);
+      height: rem(134);
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      top: 82%;
+      img{
+        width: rem(294);
+        height: 100%;
+      }
+    }
+  }
+
+  .main-content{
+    text-align: center;
+    position: relative;
+    width: rem(716);
+    height: rem(970);
+    .modalText{
+      position: absolute;
+      width: rem(510);
+      height: rem(700);
+      top: 34%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 1000;
+      div:nth-of-type(1){
+        position: absolute;
+        top: 74%;
+        font-size:rem(32);
+        font-weight:bold;
+        color:rgba(255,255,255,1);
+        line-height:rem(48);
+      }
+      div:nth-of-type(2){
+        text-align: left;
+        width:rem(444);
+        //height:rem(131);
+        font-weight:500;
+        line-height:rem(36);
+        p{
+          margin-top: rem(7);
+          span{
+            font-size:rem(24);
+            color:rgba(255,255,255,1);
+          }
+        }
+      }
+    }
+    .successBg{
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%,-50%);
+      width: rem(616);
+      height: rem(720);
+    }
+    .close{
+      width: rem(86);
+      height: rem(86);
+      position: absolute;
+      right:2%;
+      top: 5%;
+    }
+    div{
+      width: rem(716);
+      height: rem(134);
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      top: 82%;
+      img{
+        width: rem(294);
+        height: 100%;
+      }
+    }
+  }
+  .share-content{
+    text-align: center;
+    position: relative;
+    width: rem(716);
+    height: rem(1200);
+    img:nth-of-type(1){
+      width: rem(123);
+      height: rem(148);
+      position: absolute;
+      top: 0;
+      right: rem(50);
+    }
+    img:nth-of-type(2){
+      width: rem(312);
+      height: rem(116);
+      position: absolute;
+      top: 14%;
+      right: rem(150);
+    }
+  }
+
+
+}
+.modal>input:checked~* {
+  display: block;
+  opacity: 1;
+  max-height: 10000px;
+}
+.modal>input:checked~.overlay~* {
+  max-height: 90%;
+  //overflow: auto;
+  overflow: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1, 1);
+  transform: translateX(-50%) translateY(-50%) scale(1, 1);
+}
+/*弹窗样式end*/
+
+
