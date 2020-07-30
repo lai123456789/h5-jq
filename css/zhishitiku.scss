@@ -56,20 +56,20 @@ body{
           text-align: left;
           margin-top: rem(100);
           div{
-            margin: rem(31) 0;
+            margin: rem(30) 0;
             label{
               color: white;
               font-size: rem(28);
             }
           }
-          div>.p input{
+          div>input::after{
             display: none;
           }
-          div>.p label{
+          div>label{
             position: relative;
             margin-right: rem(34);
           }
-          div>.p label::before{
+          div>label::before{
             display: inline-block;
             content: "";
             width: rem(24);
@@ -81,10 +81,10 @@ body{
             background: #5686FF;
             box-shadow:0 rem(1) rem(3) 0 rgba(0,23,106,1), rem(1) rem(1) rem(1) 0 rgba(213,225,255,1);
           }
-          div>.p input:checked+label::before{
+          div>input:checked+label::before{
             background-color: #5686FF;
           }
-          div>.p input:checked+label::after{
+          div>input:checked+label::after{
             display: inline-block;
             content: "";
             width: rem(14);

@@ -48,16 +48,16 @@ body {
           text-align: left;
           margin-top: 1rem; }
           body .index-ctr .content .kuang-content .k3 div {
-            margin: 0.31rem 0; }
+            margin: 0.3rem 0; }
             body .index-ctr .content .kuang-content .k3 div label {
               color: white;
               font-size: 0.28rem; }
-          body .index-ctr .content .kuang-content .k3 div > .p input {
+          body .index-ctr .content .kuang-content .k3 div > input::after {
             display: none; }
-          body .index-ctr .content .kuang-content .k3 div > .p label {
+          body .index-ctr .content .kuang-content .k3 div > label {
             position: relative;
             margin-right: 0.34rem; }
-          body .index-ctr .content .kuang-content .k3 div > .p label::before {
+          body .index-ctr .content .kuang-content .k3 div > label::before {
             display: inline-block;
             content: "";
             width: 0.24rem;
@@ -68,9 +68,9 @@ body {
             vertical-align: bottom;
             background: #5686FF;
             box-shadow: 0 0.01rem 0.03rem 0 #00176a, 0.01rem 0.01rem 0.01rem 0 #d5e1ff; }
-          body .index-ctr .content .kuang-content .k3 div > .p input:checked + label::before {
+          body .index-ctr .content .kuang-content .k3 div > input:checked + label::before {
             background-color: #5686FF; }
-          body .index-ctr .content .kuang-content .k3 div > .p input:checked + label::after {
+          body .index-ctr .content .kuang-content .k3 div > input:checked + label::after {
             display: inline-block;
             content: "";
             width: 0.14rem;
