@@ -4,12 +4,12 @@ body {
 
 .lottery {
   width: 7.5rem;
-  height: 100vh;
+  min-height: 12.88rem;
   background: url("../image/mainTopBg.png") no-repeat;
   background-size: 100% 100%; }
   .lottery main {
     width: 100%;
-    height: 100%;
+    min-height: 12.88rem;
     background: url("../image/lottery/lottery_bg.png") no-repeat;
     background-size: 100% 100%; }
     .lottery main .icon-one {
