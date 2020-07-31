@@ -9,7 +9,7 @@ body {
   background-size: 100% 100%; }
   .lottery main {
     width: 100%;
-    min-height: 12.88rem;
+    min-height: 100vh;
     background: url("../image/lottery/lottery_bg.png") no-repeat;
     background-size: 100% 100%; }
     .lottery main .icon-one {
