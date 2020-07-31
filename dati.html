@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <title>安全知识有奖问答</title>
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/zhishitiku.css"><!--链接对应页面的css-->
+    <link rel="stylesheet" href="css/dati.css"><!--链接对应页面的css-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/zhishitiku.js"></script><!--链接对应页面的js-->
+    <script src="js/dati.js"></script><!--链接对应页面的js-->
 </head>
 <body>
 <div class="index-ctr">
@@ -43,7 +43,7 @@
                     </li>
                 </ul>
 
-                <!--多选题的时候 选择显示这块 隐藏注释上面单选题部分-->
+                <!--多选题的时候 选择显示这块 隐藏注释掉上面单选题模块代码-->
 <!--                <ul>-->
 <!--                    <li>-->
 <!--                        <input type="checkbox" id="radio1" class="my-radio" name="demo" value="1" checked/>-->
@@ -68,43 +68,11 @@
             <input type="checkbox" name="" id="modal_1">
             <label  class="overlay"></label>
             <div class="main-modal">
-                <!--答题成功 -->
-                <div class="main-content"> <!--答题成功主体内容-->
-                    <img src="image/success.png" alt="" class="successBg">
-                    <div class="modalText">
-                        <div>恭喜你，答对本期全部题目！</div>
-                        <div>
-                            <p>
-                                <span>目前你已获得积分</span>
-                                <span style="color: #FFD21D !important;">+10分</span>
-                                <span>，具体排名情况可进入首页排行榜内进行查看，10期题目全部完成后，</span>
-                                <span style="color: #FFD21D !important;">前100名</span>
-                                <span>积分排名者将获得抽取现金大奖</span>
-                            </p>
-
-                        </div>
-                    </div>
-                    <label for="modal_1" ><img src="image/close.png" alt="" class="close"></label>
-                    <div>
-                        <a href="index.html">
-                            <img src="image/backhome.png" alt="" class="backhome">
-                        </a>
-                        <img src="image/share.png" alt="" class="share">
-                    </div>
-                </div>
-                <div class="share-content" style="display: none"><!--答题成功主体内容下面按钮 分享有礼内容块-->
-                    <img src="image/shareImg1.png" alt="">
-                    <img src="image/shareImgText.png" alt="">
-                </div>
-
-<!--                答题失败  显示下面这块  上面那块答题成功模块    代码可以注释-->
-<!--                <div class="fail-content"> &lt;!&ndash;答题失败主体内容&ndash;&gt;-->
-<!--                    <img src="image/fail_bg.png" alt="" class="failBg">-->
+                <!--答题成功全部题目挑战成功 显示以下这块 -->
+<!--                <div class="main-content"> &lt;!&ndash;答题成功主体内容&ndash;&gt;-->
+<!--                    <img src="image/success.png" alt="" class="successBg">-->
 <!--                    <div class="modalText">-->
-<!--                        <div>-->
-<!--                            <p>不好意思，答题失败，</p>-->
-<!--                            <p>请关注下期答题时间，再接再厉！</p>-->
-<!--                        </div>-->
+<!--                        <div>恭喜你，答对本期全部题目！</div>-->
 <!--                        <div>-->
 <!--                            <p>-->
 <!--                                <span>目前你已获得积分</span>-->
@@ -119,15 +87,51 @@
 <!--                    <label for="modal_1" ><img src="image/close.png" alt="" class="close"></label>-->
 <!--                    <div>-->
 <!--                        <a href="index.html">-->
-<!--                            <img src="image/fail_backhome.png" alt="" class="failbackhome">-->
+<!--                            <img src="image/backhome.png" alt="" class="backhome">-->
 <!--                        </a>-->
+<!--                        <img src="image/share.png" alt="" class="share">-->
 <!--                    </div>-->
 <!--                </div>-->
+<!--                <div class="share-content" style="display: none">&lt;!&ndash;答题成功主体内容下面按钮 分享有礼内容块&ndash;&gt;-->
+<!--                    <img src="image/shareImg1.png" alt="">-->
+<!--                    <img src="image/shareImgText.png" alt="">-->
+<!--                </div>-->
+
+<!--                答题失败即当前题目答错的时候  显示下面这块  上面那块答题成功模块    代码可以注释-->
+                <div class="fail-content"> <!--答题失败主体内容-->
+                    <img src="image/fail_bg.png" alt="" class="failBg">
+                    <div class="modalText">
+                        <div>
+                            <p>不好意思，答题失败，</p>
+                            <p>请关注下期答题时间，再接再厉！</p>
+                        </div>
+                        <div>
+                            <p>
+                                <span>目前你已获得积分</span>
+                                <span style="color: #FFD21D !important;">+10分</span>
+                                <span>，具体排名情况可进入首页排行榜内进行查看，10期题目全部完成后，</span>
+                                <span style="color: #FFD21D !important;">前100名</span>
+                                <span>积分排名者将获得抽取现金大奖</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <label for="modal_1" ><img src="image/close.png" alt="" class="close"></label>
+                    <div>
+                        <a href="index.html">
+                            <img src="image/fail_backhome.png" alt="" class="failbackhome">
+                        </a>
+                    </div>
+                </div>
 
 
             </div>
         </div>
-        <label for="modal_1"><img src="image/zhishitikuSure.png" alt="" class="bottomImg"></label><!--点击弹窗调用-->
+        <img src="image/prev.png" alt="" class="bottomPrevImg">
+        <label for="modal_1">
+            <img src="image/next.png" alt="" class="bottomNextImg">
+<!--            <img src="image/zhishitikuSure.png" alt="" class="bottomImg">-->
+        </label><!--点击弹窗调用-->
     </div>
     <div class="bText">
         龙华区大浪街道安全管理委员会办公室

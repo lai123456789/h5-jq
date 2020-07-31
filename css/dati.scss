@@ -1,0 +1,367 @@
+@function rem( $px ) {
+  @return $px/100 + rem;
+}
+body{
+  margin: 0;
+  padding:0;
+  height: 100%;
+  width: 100%;
+  //background:url("../image/zhishitikuBg.png");
+  //background-size:100%;
+  .index-ctr{
+    background-size:100%;
+    z-index: 0 !important;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../image/zhishitikuBg.png") left top no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    .content{
+      width: 100%;
+      height: rem(884);
+      position: relative;
+      .kuang-content{
+        position: absolute;
+        width: rem(510);
+        height: rem(700);
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1000;
+        .k1{
+          white-space: nowrap;
+          margin: 0 auto;
+          width:rem(245);
+          height:rem(34);
+          font-size:rem(36);
+          font-weight:500;
+          color:rgba(255,210,53,1);
+        }
+        .k2{
+          margin-top: rem(50);
+          text-align: left;
+          width:rem(511);
+          height:rem(119);
+          font-size:rem(28);
+          font-weight:500;
+          color:rgba(255,255,255,1);
+          line-height:rem(46);
+        }
+        .k3{
+          text-align: left;
+          margin-top: rem(70);
+          ul{
+            li {
+              position: relative;
+              list-style: none;
+              display: flex;
+              margin: rem(30) 0 rem(30) rem(-90);
+            }
+            .my-radio {
+              position: relative;
+              z-index: 100;
+              margin-right: rem(10);
+            }
+            .my-radio:checked::after {
+              content: '';
+            }
+            .my-radio::before {
+              content: '';
+              position: absolute;
+              width: 0.3rem;
+              height: 0.3rem;
+              border-radius: 50%;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              //right: -0.01rem;
+              //top: -0.04rem;
+              background: #5686FF;
+              box-shadow:0 rem(1) rem(3) 0 rgba(0,23,106,1), rem(1) rem(1) rem(1) 0 rgba(213,225,255,1);
+            }
+            .my-radio::after {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              //left: rem(3);
+              //bottom: rem(4);
+              background-color: #FFAF38;
+              width: rem(20);
+              height: rem(20);
+              border-radius: 50%;
+              //box-shadow:0 rem(1) rem(3) 0 rgba(0,23,106,1), rem(1) rem(1) rem(1) 0 #FFAF38;
+            }
+            .radio-label {
+              font-size: rem(28);
+              color: white;
+              display: inline-block;
+              width: rem(420);
+              //position: absolute;
+              left: rem(50);
+              top: 0;
+            }
+
+          }
+
+        }
+      }
+      .topImg{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+      }
+      .bottomPrevImg{
+        width: rem(294);
+        height: rem(134);
+        position: absolute;
+        top: 121%;
+        left: 27%;
+        transform: translate(-50%,-50%);
+      }
+      .bottomNextImg{
+        width: rem(294);
+        height: rem(134);
+        position: absolute;
+        top: 121%;
+        right: -9%;
+        transform: translate(-50%,-50%);
+      }
+    }
+    .bText{
+      width: 100%;
+      font-size: rem(24);
+      margin: 0 auto;
+      color: #90D7FF;
+      padding-bottom: rem(50);
+      position: absolute;
+      bottom: 0;
+    }
+
+  }
+
+}
+/*弹窗样式start*/
+//* {
+//  margin: 0;
+//  padding: 0;
+//  font-size: 14px;
+//  font-family: Arial, Helvetica, sans-serif
+//}
+.modal>input {
+  display: none;
+}
+.modal>input~* {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0
+}
+.modal .overlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  margin: 0;
+  border-radius: 0;
+  background: rgba(17, 17, 17, 0.7);
+  transition: all 0.3s;
+  z-index: 100000;
+}
+
+.modal .overlay~* {
+  border: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) scale(0.2, 0.2);
+  z-index: 1000000;
+  transition: all .3s ease;
+  //background: green;
+}
+.main-modal { /*这里修改弹窗内容样式即可*/
+  .fail-content{
+    text-align: center;
+    position: relative;
+    width: rem(716);
+    height: rem(970);
+    .modalText{
+      position: absolute;
+      width: rem(510);
+      height: rem(700);
+      top: 34%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 1000;
+      div:nth-of-type(1){
+        position: absolute;
+        line-height:rem(30);
+        top: 62%;
+        left: -15%;
+        transform: translate(-50,-50%);
+        p{
+          font-size:rem(32);
+          font-weight:bold;
+          color:rgba(255,255,255,1);
+        }
+      }
+      div:nth-of-type(2){
+        text-align: left;
+        width:rem(444);
+        //height:rem(131);
+        font-weight:500;
+        line-height:rem(36);
+        position: absolute;
+        top: 80%;
+        left: 12%;
+        transform: translate(-50,-50%);
+        p{
+          margin-top: rem(7);
+          span{
+            font-size:rem(24);
+            color:rgba(255,255,255,1);
+          }
+        }
+      }
+    }
+    .failBg{
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%,-50%);
+      width: rem(616);
+      height: rem(720);
+    }
+    .close{
+      width: rem(86);
+      height: rem(86);
+      position: absolute;
+      right:2%;
+      top: 5%;
+    }
+    div{
+      width: rem(716);
+      height: rem(133);
+      //display: flex;
+      //justify-content: center;
+      position: absolute;
+      bottom: 0;
+      top: 82%;
+      img{
+        width: rem(294);
+        height: 100%;
+      }
+    }
+  }
+
+  .main-content{
+    text-align: center;
+    position: relative;
+    width: rem(716);
+    height: rem(970);
+    .modalText{
+      position: absolute;
+      width: rem(510);
+      height: rem(700);
+      top: 34%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 1000;
+      div:nth-of-type(1){
+        position: absolute;
+        top: 74%;
+        font-size:rem(32);
+        font-weight:bold;
+        color:rgba(255,255,255,1);
+        line-height:rem(48);
+      }
+      div:nth-of-type(2){
+        text-align: left;
+        width:rem(444);
+        //height:rem(131);
+        font-weight:500;
+        line-height:rem(36);
+        p{
+          margin-top: rem(7);
+          span{
+            font-size:rem(24);
+            color:rgba(255,255,255,1);
+          }
+        }
+      }
+    }
+    .successBg{
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%,-50%);
+      width: rem(616);
+      height: rem(720);
+    }
+    .close{
+      width: rem(86);
+      height: rem(86);
+      position: absolute;
+      right:2%;
+      top: 5%;
+    }
+    div{
+      width: rem(716);
+      height: rem(134);
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      top: 82%;
+      img{
+        width: rem(294);
+        height: 100%;
+      }
+    }
+  }
+  .share-content{
+    text-align: center;
+    position: relative;
+    width: rem(716);
+    height: rem(1200);
+    img:nth-of-type(1){
+      width: rem(123);
+      height: rem(148);
+      position: absolute;
+      top: 0;
+      right: rem(50);
+    }
+    img:nth-of-type(2){
+      width: rem(312);
+      height: rem(116);
+      position: absolute;
+      top: 14%;
+      right: rem(150);
+    }
+  }
+
+
+}
+.modal>input:checked~* {
+  display: block;
+  opacity: 1;
+  max-height: 10000px;
+}
+.modal>input:checked~.overlay~* {
+  max-height: 90%;
+  //overflow: auto;
+  overflow: hidden;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1, 1);
+  transform: translateX(-50%) translateY(-50%) scale(1, 1);
+}
+/*弹窗样式end*/
+
+

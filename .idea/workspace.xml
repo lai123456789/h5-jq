@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eada082-39de-4b5c-8f83-1ef95bdc98b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/dati.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dati.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/dati.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/zhishitiku.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/zhishitiku.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/zhishitiku.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/zhishitiku.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhishitiku.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhishitiku.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Ruby26-x64/bin/scss.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -48,18 +49,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\项目\H5_jq_project" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h5+jq/index.html" useBuiltInWebServerPort="true">
@@ -119,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596110894299</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gitignore文件">
+      <created>1596160823085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596160823085</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,40 +139,41 @@
     <MESSAGE value="新增页面图片" />
     <MESSAGE value="新增单选题多选题页面" />
     <MESSAGE value="完善页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善页面" />
+    <MESSAGE value="gitignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="203" key="#File_Watchers" timestamp="1595988565519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="447" y="203" key="#File_Watchers/0.0.1920.1050@0.0.1920.1050" timestamp="1595988565519" />
-    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1596090144769">
+    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1596160821932">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596090144769" />
-    <state x="381" y="262" key="EditFileWatcherDialog" timestamp="1596090654568">
+    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596160821932" />
+    <state x="381" y="262" key="EditFileWatcherDialog" timestamp="1596160966500">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="381" y="262" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596090654568" />
+    <state x="381" y="262" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596160966500" />
     <state x="674" y="260" key="FileChooserDialogImpl" timestamp="1596090653512">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="674" y="260" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1596090653512" />
-    <state x="461" y="156" key="SettingsEditor" timestamp="1596090655915">
+    <state x="461" y="156" key="SettingsEditor" timestamp="1596160967950">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1596090655915" />
-    <state x="384" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596090161254">
+    <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1596160967950" />
+    <state x="384" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596160833268">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="384" y="159" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596090161254" />
+    <state x="384" y="159" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596160833268" />
     <state x="636" y="256" width="647" height="538" key="find.popup" timestamp="1596020678990">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="636" y="256" width="647" height="538" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1596020678990" />
-    <state x="667" y="315" key="git4idea.merge.GitPullDialog" timestamp="1596033819389">
+    <state x="667" y="315" key="git4idea.merge.GitPullDialog" timestamp="1596160786506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="667" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596033819389" />
+    <state x="667" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596160786506" />
   </component>
 </project>
