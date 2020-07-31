@@ -119,6 +119,17 @@ body{
         width: 100%;
         height: 100%;
       }
+      .bottomImg{
+        width: rem(458);
+        height: rem(134);
+        position: absolute;
+        top: 122%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .active{
+        opacity: .7;
+      }
       .bottomPrevImg{
         width: rem(294);
         height: rem(134);
@@ -126,6 +137,7 @@ body{
         top: 121%;
         left: 27%;
         transform: translate(-50%,-50%);
+
       }
       .bottomNextImg{
         width: rem(294);

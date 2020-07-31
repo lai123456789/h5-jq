@@ -94,6 +94,15 @@ body {
         z-index: 100;
         width: 100%;
         height: 100%; }
+      body .index-ctr .content .bottomImg {
+        width: 4.58rem;
+        height: 1.34rem;
+        position: absolute;
+        top: 122%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      body .index-ctr .content .active {
+        opacity: .7; }
       body .index-ctr .content .bottomPrevImg {
         width: 2.94rem;
         height: 1.34rem;
