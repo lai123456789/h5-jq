@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eada082-39de-4b5c-8f83-1ef95bdc98b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/dati.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dati.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/dati.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhishitiku.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhishitiku.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596160823085</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增答题页面答题逻辑">
+      <created>1596163496191</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596163496191</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,17 +141,18 @@
     <MESSAGE value="新增单选题多选题页面" />
     <MESSAGE value="完善页面" />
     <MESSAGE value="gitignore文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore文件" />
+    <MESSAGE value="新增答题页面答题逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增答题页面答题逻辑" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="203" key="#File_Watchers" timestamp="1595988565519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="447" y="203" key="#File_Watchers/0.0.1920.1050@0.0.1920.1050" timestamp="1595988565519" />
-    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1596160821932">
+    <state x="467" y="118" key="CommitChangelistDialog2" timestamp="1596163495257">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596160821932" />
+    <state x="467" y="118" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596163495257" />
     <state x="381" y="262" key="EditFileWatcherDialog" timestamp="1596160966500">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -163,10 +165,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1596160967950" />
-    <state x="384" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596160833268">
+    <state x="384" y="159" key="Vcs.Push.Dialog.v2" timestamp="1596163509861">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="384" y="159" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596160833268" />
+    <state x="384" y="159" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596163509861" />
     <state x="636" y="256" width="647" height="538" key="find.popup" timestamp="1596020678990">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
