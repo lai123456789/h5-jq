@@ -24,6 +24,7 @@
             </div>
             <div class="k3">
                 <!--单选题-->
+                <form method="post"  id="form">
                 <ul>
                     <li>
                         <input type="radio" id="radio1" class="my-radio" name="demo" value="1" checked/>
@@ -42,8 +43,8 @@
                         <label class="radio-label" for="radio4">全面参与，持续改进</label>
                     </li>
                 </ul>
-
-                <!--多选题的时候 选择显示这块 隐藏注释掉上面单选题模块代码-->
+                </form>
+                <!--多选题-->
 <!--                <ul>-->
 <!--                    <li>-->
 <!--                        <input type="checkbox" id="radio1" class="my-radio" name="demo" value="1" checked/>-->
@@ -127,8 +128,9 @@
 
             </div>
         </div>
-        <img src="image/prev.png" alt="" class="bottomPrevImg"> <!--如果当前是第一题 添加一个active类-->
-        <label for="modal_1">
+        <!--如果当前是第一题 下面图片添加一个active类  在js加载函数回调数据后控制，直接$(".bottomPrevImg").addClass("active")-->
+        <img src="image/prev.png" alt="" class="bottomPrevImg">
+        <label class="labelfor"> <!-- for="modal_1"-->
             <img src="image/next.png" alt="" class="bottomNextImg"> <!--如果当前是最后一题 添加一个active类-->
         </label><!--点击弹窗调用-->
     </div>

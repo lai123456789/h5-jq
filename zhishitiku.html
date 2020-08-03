@@ -24,6 +24,7 @@
             </div>
             <div class="k3">
                 <!--单选题-->
+                <form method="post"  id="form">
                 <ul>
                     <li>
                         <input type="radio" id="radio1" class="my-radio" name="demo" value="1" checked/>
@@ -42,8 +43,8 @@
                         <label class="radio-label" for="radio4">全面参与，持续改进</label>
                     </li>
                 </ul>
-
-                <!--多选题的时候 选择显示这块 隐藏注释上面单选题部分-->
+                </form>
+                <!--多选题-->
 <!--                <ul>-->
 <!--                    <li>-->
 <!--                        <input type="checkbox" id="radio1" class="my-radio" name="demo" value="1" checked/>-->
@@ -97,37 +98,37 @@
                     <img src="image/shareImgText.png" alt="">
                 </div>
 
-<!--                答题失败  显示下面这块  上面那块答题成功模块    代码可以注释-->
-<!--                <div class="fail-content"> &lt;!&ndash;答题失败主体内容&ndash;&gt;-->
-<!--                    <img src="image/fail_bg.png" alt="" class="failBg">-->
-<!--                    <div class="modalText">-->
-<!--                        <div>-->
-<!--                            <p>不好意思，答题失败，</p>-->
-<!--                            <p>请关注下期答题时间，再接再厉！</p>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p>-->
-<!--                                <span>目前你已获得积分</span>-->
-<!--                                <span style="color: #FFD21D !important;">+10分</span>-->
-<!--                                <span>，具体排名情况可进入首页排行榜内进行查看，10期题目全部完成后，</span>-->
-<!--                                <span style="color: #FFD21D !important;">前100名</span>-->
-<!--                                <span>积分排名者将获得抽取现金大奖</span>-->
-<!--                            </p>-->
+                <!--答题失败-->
+                <div class="fail-content" style="display: none"> <!--答题失败主体内容-->
+                    <img src="image/fail_bg.png" alt="" class="failBg">
+                    <div class="modalText">
+                        <div>
+                            <p>不好意思，答题失败，</p>
+                            <p>请关注下期答题时间，再接再厉！</p>
+                        </div>
+                        <div>
+                            <p>
+                                <span>目前你已获得积分</span>
+                                <span style="color: #FFD21D !important;">+10分</span>
+                                <span>，具体排名情况可进入首页排行榜内进行查看，10期题目全部完成后，</span>
+                                <span style="color: #FFD21D !important;">前100名</span>
+                                <span>积分排名者将获得抽取现金大奖</span>
+                            </p>
 
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <label for="modal_1" ><img src="image/close.png" alt="" class="close"></label>-->
-<!--                    <div>-->
-<!--                        <a href="index.html">-->
-<!--                            <img src="image/fail_backhome.png" alt="" class="failbackhome">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
+                        </div>
+                    </div>
+                    <label for="modal_1" ><img src="image/close.png" alt="" class="close"></label>
+                    <div>
+                        <a href="index.html">
+                            <img src="image/fail_backhome.png" alt="" class="failbackhome">
+                        </a>
+                    </div>
+                </div>
 
 
             </div>
         </div>
-        <label for="modal_1"><img src="image/zhishitikuSure.png" alt="" class="bottomImg"></label><!--点击弹窗调用-->
+        <label class="labelfor"><img src="image/zhishitikuSure.png" alt="" class="bottomImg"></label><!-- for="modal_1"点击弹窗调用-->
     </div>
     <div class="bText">
         龙华区大浪街道安全管理委员会办公室
