@@ -16,7 +16,19 @@
     e.addEventListener&&(n.addEventListener(o,a,!1),e.addEventListener("DOMContentLoaded",a,!1))
 }(window);
 
-
+//ajax封装请求调用
+// function ajaxRequest(url,action,param,callbackData){
+//     $.ajax({
+//         type:action,
+//         url:url,
+//         data:param,
+//         dataType:"json",
+//         success:callbackData
+//     })
+// }
+// ajaxRequest("../pi/api/login","post",{name:"john"},function (res) {
+//     console.log(res);
+// })
 
 
 
