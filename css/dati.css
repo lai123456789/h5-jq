@@ -3,19 +3,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background: url("../image/zhishitikuBg.png");
+  background-size: cover;
   width: 100%; }
   body .index-ctr {
-    background-size: 100%;
-    z-index: 0 !important;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    background: url("../image/zhishitikuBg.png") left top no-repeat;
-    background-size: 100% 100%;
-    text-align: center; }
+    overflow: scroll; }
     body .index-ctr .content {
       width: 100%;
       height: 8.84rem;
@@ -27,7 +19,9 @@ body {
         top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 1000; }
+        z-index: 1000;
+        overflow-y: scroll;
+        overflow-x: hidden; }
         body .index-ctr .content .kuang-content .k1 {
           white-space: nowrap;
           margin: 0 auto;
@@ -40,14 +34,14 @@ body {
           margin-top: 0.5rem;
           text-align: left;
           width: 5.11rem;
-          height: 1.19rem;
           font-size: 0.28rem;
           font-weight: 500;
           color: white;
           line-height: 0.46rem; }
         body .index-ctr .content .kuang-content .k3 {
           text-align: left;
-          margin-top: 0.7rem; }
+          margin-top: -0.4rem;
+          margin-left: 0.1rem; }
           body .index-ctr .content .kuang-content .k3 ul li {
             position: relative;
             list-style: none;
@@ -68,8 +62,7 @@ body {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: #5686FF;
-            box-shadow: 0 0.01rem 0.03rem 0 #00176a, 0.01rem 0.01rem 0.01rem 0 #d5e1ff; }
+            background: #5686FF; }
           body .index-ctr .content .kuang-content .k3 ul .my-radio::after {
             position: absolute;
             top: 50%;
@@ -86,6 +79,13 @@ body {
             width: 4.2rem;
             left: 0.5rem;
             top: 0; }
+      body .index-ctr .content .close {
+        width: 0.86rem;
+        height: 0.86rem;
+        position: absolute;
+        right: 2%;
+        top: 11%;
+        z-index: 10000; }
       body .index-ctr .content .topImg {
         position: absolute;
         top: 65%;
@@ -120,11 +120,9 @@ body {
     body .index-ctr .bText {
       width: 100%;
       font-size: 0.24rem;
-      margin: 0 auto;
+      margin: 3rem auto;
       color: #90D7FF;
-      padding-bottom: 0.5rem;
-      position: absolute;
-      bottom: 0; }
+      text-align: center; }
 
 /*弹窗样式start*/
 .modal > input {
@@ -202,12 +200,6 @@ body {
       transform: translate(-50%, -50%);
       width: 6.16rem;
       height: 7.2rem; }
-    .main-modal .fail-content .close {
-      width: 0.86rem;
-      height: 0.86rem;
-      position: absolute;
-      right: 2%;
-      top: 5%; }
     .main-modal .fail-content div {
       width: 7.16rem;
       height: 1.33rem;
@@ -254,12 +246,6 @@ body {
       transform: translate(-50%, -50%);
       width: 6.16rem;
       height: 7.2rem; }
-    .main-modal .main-content .close {
-      width: 0.86rem;
-      height: 0.86rem;
-      position: absolute;
-      right: 2%;
-      top: 5%; }
     .main-modal .main-content div {
       width: 7.16rem;
       height: 1.34rem;

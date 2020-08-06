@@ -1,39 +1,18 @@
 $(document).on("click",".bottomPrevImg",function (e) {
-    window.history.back();  //返回上一页
+    // window.history.back();  //返回上一页
+    console.log("Eee")
+    window.location.href = "http://www.baidu.com?Id=1";//跳转页面带参数
 })
-function getRadioValue(radioName){ //获取选中的radio值
-    var radioValue;
-    radioValue=document.getElementsByName(radioName);
-    if(radioValue!=null){
-        var i;
-        for(i=0;i<radioValue.length;i++){
-            if(radioValue[i].checked){
-                return radioValue[i].value;
-            }
-        }
-    }
-    return null;
-}
 $(document).on("click",".bottomNextImg",function (e) {
-    var radiovalue = getRadioValue("demo");//demo为radio的name值
-    console.log(radiovalue) //选中的值
-    var params = radiovalue
-    // $(".labelfor").attr('for','modal_1')  //加这一行是显示弹框
-    $.ajax({
-        type: "POST",
-        url: "/url.do",
-        data: params,
-        dataType : "json",
-        success: function(respMsg){
-            window.location.href = "./punch/clock_frm.html?modFlag="+modFlag+'&role='+role;//跳转页面带参数
-        }
-    });
-    // $.ajax({
-    //     type: "POST",
-    //     url: "/url.do",
-    //     data: params,
-    //     dataType : "json",
-    //     success: function(respMsg){
-    //     }
-    // });
+    window.location.href = "http://www.baidu.com?Id=2";//跳转页面带参数
 })
+
+// function f() {
+//     if(){ //如果当前为第一页  则上一题按钮 变灰
+//         $(".bottomPrevImg").addClass("active")
+//     }
+//     if(){
+//         //如果当前为最后一页  则下一题按钮 变灰
+//         $(".bottomNextImg").addClass("active")
+//     }
+// }

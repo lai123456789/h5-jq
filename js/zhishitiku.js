@@ -1,11 +1,12 @@
 $(document).on("click",".share",function (e) {
     $(".main-content").hide().next().show()
-
 })
-
-function getRadioValue(radioName){ //获取选中的radio值
+$(document).on("click",".close",function (e) {
+    $(".modal").hide()
+})
+function getRadioValue(){ //获取单选框选中的radio值
     var radioValue;
-    radioValue=document.getElementsByName(radioName);
+    radioValue=document.getElementsByName("demo");
     if(radioValue!=null){
         var i;
         for(i=0;i<radioValue.length;i++){
@@ -16,29 +17,47 @@ function getRadioValue(radioName){ //获取选中的radio值
     }
     return null;
 }
+function getCheckboxValue(){ //获取复选框选中的checkbox值
+    var CheckboxValue = new Array();
+    $(".k3 ul li input:checkbox[name='demo']:checked").each(function(i){
+        CheckboxValue[i] = $(this).val();
+    });
+    return CheckboxValue;
+     //CheckboxValue为一个数组 即选中的checkbox的所有值
+}
 $(document).on("click",".bottomImg",function (e) {
-    var radiovalue = getRadioValue("demo");//demo为radio的name值
-    console.log(radiovalue) //选中的值
-    var params = radiovalue
-    // $(".labelfor").attr('for','modal_1')  //加这一行是显示弹框
+    let selectVal;
+    if(5>3){ //如果当前类型是单选 选择单选值方法
+        selectVal = getRadioValue()
+        if(selectVal == null || selectVal == ""){
+            alert("请先选择答案！")
+            return;
+        }
+    }else if(5>6){
+        //如果当前类型是多选 选择多选值方法（数组）
+        selectVal = getCheckboxValue()
+        if(selectVal == [] || selectVal.length == 0){
+            alert("请先选择答案！")
+            return;
+        }
+    }
+    console.log(selectVal)  //selectVal为选中的值  不管是多选还是单选 只需传该字段到后台地址即可
     $.ajax({
         type: "POST",
         url: "/url.do",
-        data: params,
+        data: selectVal,
         dataType : "json",
         success: function(respMsg){
             //提交值之后后台判断对错  如果返回字段是 对则跳转下一题，错则弹出答题错误，如果全对，则弹出答题成功
-
             if(){ //如果全部答对，则显示答题成功弹框
-                $(".labelfor").attr('for','modal_1')   //加这一行是显示弹框
+                $(".fail-content").hide()
+                $(".main-content").show()
+                $(".modal").show()
             }else if(){
                 //如果答题失败，则显示答题失败弹框
                 $(".fail-content").show()
                 $(".main-content").hide()
-                $(".labelfor").attr('for','modal_1')
-            }else{
-                //如果答对一题，则不显示弹框 跳转下一题
-                window.location.href = "./punch/clock_frm.html?modFlag="+modFlag+'&role='+role;//跳转页面带参数
+                $(".modal").show()
             }
 
         }

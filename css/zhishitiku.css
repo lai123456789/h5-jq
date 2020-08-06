@@ -3,19 +3,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  background: url("../image/zhishitikuBg.png");
+  background-size: cover; }
   body .index-ctr {
-    background-size: 100%;
-    z-index: 0 !important;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    background: url("../image/zhishitikuBg.png") left top no-repeat;
-    background-size: 100% 100%;
-    text-align: center; }
+    overflow: scroll; }
     body .index-ctr .content {
       width: 100%;
       height: 8.84rem;
@@ -27,7 +19,9 @@ body {
         top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 1000; }
+        z-index: 1000;
+        overflow-y: scroll;
+        overflow-x: hidden; }
         body .index-ctr .content .kuang-content .k1 {
           white-space: nowrap;
           margin: 0 auto;
@@ -40,14 +34,15 @@ body {
           margin-top: 0.5rem;
           text-align: left;
           width: 5.11rem;
-          height: 1.19rem;
           font-size: 0.28rem;
           font-weight: 500;
           color: white;
           line-height: 0.46rem; }
         body .index-ctr .content .kuang-content .k3 {
           text-align: left;
-          margin-top: 0.7rem; }
+          margin-top: -0.4rem;
+          margin-left: 0.18rem;
+          width: 4.8rem; }
           body .index-ctr .content .kuang-content .k3 ul li {
             position: relative;
             list-style: none;
@@ -68,8 +63,7 @@ body {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: #5686FF;
-            box-shadow: 0 0.01rem 0.03rem 0 #00176a, 0.01rem 0.01rem 0.01rem 0 #d5e1ff; }
+            background: #5686FF; }
           body .index-ctr .content .kuang-content .k3 ul .my-radio::after {
             position: absolute;
             top: 50%;
@@ -104,13 +98,14 @@ body {
     body .index-ctr .bText {
       width: 100%;
       font-size: 0.24rem;
-      margin: 0 auto;
+      margin: 3rem auto;
       color: #90D7FF;
-      padding-bottom: 0.5rem;
-      position: absolute;
-      bottom: 0; }
+      text-align: center; }
 
 /*弹窗样式start*/
+.modal {
+  display: none; }
+
 .modal > input {
   display: none; }
 
@@ -136,9 +131,9 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%) scale(0.2, 0.2);
+  transform: translateX(-50%) translateY(-50%);
   z-index: 1000000;
-  transition: all .3s ease; }
+  transition: all 1s ease; }
 
 .main-modal {
   /*这里修改弹窗内容样式即可*/ }
@@ -152,13 +147,13 @@ body {
       width: 5.1rem;
       height: 7rem;
       top: 34%;
-      left: 50%;
+      left: 49%;
       transform: translate(-50%, -50%);
       z-index: 1000; }
       .main-modal .fail-content .modalText div:nth-of-type(1) {
         position: absolute;
         line-height: 0.3rem;
-        top: 62%;
+        top: 60%;
         left: -15%;
         transform: translate(-50, -50%); }
         .main-modal .fail-content .modalText div:nth-of-type(1) p {
@@ -167,12 +162,12 @@ body {
           color: white; }
       .main-modal .fail-content .modalText div:nth-of-type(2) {
         text-align: left;
-        width: 4.44rem;
+        width: 4.7rem;
         font-weight: 500;
-        line-height: 0.36rem;
+        line-height: 0.23rem;
         position: absolute;
-        top: 80%;
-        left: 12%;
+        top: 76%;
+        left: 8%;
         transform: translate(-50, -50%); }
         .main-modal .fail-content .modalText div:nth-of-type(2) p {
           margin-top: 0.07rem; }
@@ -225,7 +220,8 @@ body {
         text-align: left;
         width: 4.44rem;
         font-weight: 500;
-        line-height: 0.36rem; }
+        line-height: 0.23rem;
+        margin-top: -0.3rem; }
         .main-modal .main-content .modalText div:nth-of-type(2) p {
           margin-top: 0.07rem; }
           .main-modal .main-content .modalText div:nth-of-type(2) p span {

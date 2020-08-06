@@ -5,21 +5,24 @@ body{
   margin: 0;
   padding:0;
   height: 100%;
+  background: url("../image/zhishitikuBg.png");
+  background-size: cover;
   width: 100%;
   //background:url("../image/zhishitikuBg.png");
   //background-size:100%;
   .index-ctr{
-    background-size:100%;
-    z-index: 0 !important;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    background: url("../image/zhishitikuBg.png") left top no-repeat;
-    background-size: 100% 100%;
-    text-align: center;
+    overflow: scroll;
+    //background-size:100%;
+    //z-index: 0 !important;
+    //height: 100%;
+    //position: absolute;
+    //left: 0;
+    //width: 100%;
+    //top: 50%;
+    //transform: translateY(-50%);
+    //background: url("../image/zhishitikuBg.png") left top no-repeat;
+    //background-size: 100% 100%;
+    //text-align: center;
     .content{
       width: 100%;
       height: rem(884);
@@ -32,6 +35,8 @@ body{
         left: 50%;
         transform: translate(-50%,-50%);
         z-index: 1000;
+        overflow-y: scroll;
+        overflow-x: hidden;
         .k1{
           white-space: nowrap;
           margin: 0 auto;
@@ -45,7 +50,7 @@ body{
           margin-top: rem(50);
           text-align: left;
           width:rem(511);
-          height:rem(119);
+          //height:rem(119);
           font-size:rem(28);
           font-weight:500;
           color:rgba(255,255,255,1);
@@ -53,7 +58,9 @@ body{
         }
         .k3{
           text-align: left;
-          margin-top: rem(70);
+          margin-top: rem(-40);
+          margin-left: rem(10);
+
           ul{
             li {
               position: relative;
@@ -81,7 +88,7 @@ body{
               //right: -0.01rem;
               //top: -0.04rem;
               background: #5686FF;
-              box-shadow:0 rem(1) rem(3) 0 rgba(0,23,106,1), rem(1) rem(1) rem(1) 0 rgba(213,225,255,1);
+              //box-shadow:0 rem(1) rem(3) 0 rgba(0,23,106,1), rem(1) rem(1) rem(1) 0 rgba(213,225,255,1);
             }
             .my-radio::after {
               position: absolute;
@@ -109,6 +116,14 @@ body{
           }
 
         }
+      }
+      .close{
+        width: rem(86);
+        height: rem(86);
+        position: absolute;
+        right:2%;
+        top: 11%;
+        z-index: 10000;
       }
       .topImg{
         position: absolute;
@@ -151,11 +166,12 @@ body{
     .bText{
       width: 100%;
       font-size: rem(24);
-      margin: 0 auto;
+      margin: rem(300) auto;
       color: #90D7FF;
-      padding-bottom: rem(50);
-      position: absolute;
-      bottom: 0;
+      text-align: center;
+      //padding-bottom: rem(50);
+      //position: absolute;
+      //bottom: 0;
     }
 
   }
@@ -252,13 +268,7 @@ body{
       width: rem(616);
       height: rem(720);
     }
-    .close{
-      width: rem(86);
-      height: rem(86);
-      position: absolute;
-      right:2%;
-      top: 5%;
-    }
+
     div{
       width: rem(716);
       height: rem(133);
@@ -317,13 +327,6 @@ body{
       transform: translate(-50%,-50%);
       width: rem(616);
       height: rem(720);
-    }
-    .close{
-      width: rem(86);
-      height: rem(86);
-      position: absolute;
-      right:2%;
-      top: 5%;
     }
     div{
       width: rem(716);

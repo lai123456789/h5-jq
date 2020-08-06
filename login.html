@@ -21,11 +21,11 @@
                     <div class="login">
                         <div class="login-text">
                             <img src="./image/user.png" alt="">姓名<br>
-                            <input type="text" name="username" placeholder="大猩猩"><br>
+                            <input type="text" class="username" name="username" placeholder="大猩猩"><br>
                         </div>
                         <div class="login-text phone-text">
                             <img src="./image/phone.png" alt="">手机<br>
-                            <input type="text" name="phone" placeholder="请输入手机号码（11位）">
+                            <input type="text" class="phone" name="phone" placeholder="请输入手机号码（11位）">
                         </div>
                     </div>
                 </div>
@@ -43,5 +43,13 @@
     </div>
 
 </body>
-
+<script>
+    $(document).on("click",".submit",function (e) {
+        if($(".username").val() == "" || $(".phone").val() == ""){
+            alert("请输入相应信息！")
+            return;
+        }
+        window.location.href = "http://www.baidu.com?Id=2";//跳转页面带参数
+    })
+</script>
 </html>
