@@ -61,6 +61,7 @@ body {
   /* WebKit browsers */
   color: #1D48BE;
   font-weight: 700;
+  font-size: .3rem;
 }
 .container .main .main-Top .loginnavbar .login .phone-text input:nth-child(3)::-webkit-input-placeholder {
   /* WebKit browsers */
@@ -70,6 +71,7 @@ body {
   margin: 0 auto;
   height: 1.34rem;
   width: 4.58rem;
+  margin-top: -0.03rem;
 }
 .container .main .submit img {
   width: 100%;
