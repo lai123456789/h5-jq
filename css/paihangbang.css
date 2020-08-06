@@ -46,7 +46,7 @@ html, body {
       margin-top: -0.05rem;
       width: 100%;
       height: 100%;
-      background: url("../image/mainBottom.png");
+      background: url("../image/paihangbangBg.png");
       background-size: 100% 100%;
       font-size: 16px;
       overflow: scroll; }
@@ -54,7 +54,7 @@ html, body {
         background: url("../image/paihang_k1.png");
         background-size: 100% 100%;
         width: 6.64rem;
-        margin: 0 auto;
+        margin: 0.5rem auto 0 auto;
         padding-top: 0.9rem;
         height: 7.06rem; }
         html .index-ctr .bottom .b-content .b1, body .index-ctr .bottom .b-content .b1 {
@@ -68,7 +68,8 @@ html, body {
           margin-top: -0.4rem;
           margin-left: 0.5rem; }
           html .index-ctr .bottom .b-content .b1 p, body .index-ctr .bottom .b-content .b1 p {
-            color: #FFD235; }
+            color: #FFD235;
+            font-weight: bold; }
           html .index-ctr .bottom .b-content .b1 p:nth-of-type(1), body .index-ctr .bottom .b-content .b1 p:nth-of-type(1) {
             margin-left: -0.2rem; }
           html .index-ctr .bottom .b-content .b1 p:nth-of-type(3), body .index-ctr .bottom .b-content .b1 p:nth-of-type(3) {
@@ -99,6 +100,6 @@ html, body {
       color: #90D7FF;
       text-align: center;
       position: absolute;
-      bottom: 1rem; }
+      bottom: 0.3rem; }
 
 /*# sourceMappingURL=paihangbang.css.map */

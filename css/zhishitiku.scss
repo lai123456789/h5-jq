@@ -72,6 +72,7 @@ body{
               position: relative;
               z-index: 100;
               margin-right: rem(10);
+              border: none;
             }
             .my-radio:checked::after {
               content: '';
@@ -79,8 +80,8 @@ body{
             .my-radio::before {
               content: '';
               position: absolute;
-              width: 0.3rem;
-              height: 0.3rem;
+              width: 0.33rem;
+              height: 0.33rem;
               border-radius: 50%;
               top: 50%;
               left: 50%;
@@ -223,8 +224,9 @@ body{
         top: 76%;
         left: 8%;
         transform: translate(-50,-50%);
-        p{
+        .d2{
           margin-top: rem(7);
+          width:rem(444);
           span{
             font-size:rem(24);
             color:rgba(255,255,255,1);
@@ -256,7 +258,7 @@ body{
       bottom: 0;
       top: 82%;
       img{
-        width: rem(294);
+        width: rem(340);
         height: 100%;
       }
     }
@@ -289,9 +291,9 @@ body{
         font-weight:500;
         line-height:rem(23);
         margin-top: rem(-30);
-        p{
+        div{
           margin-top: rem(7);
-          span{
+          p{
             font-size:rem(24);
             color:rgba(255,255,255,1);
           }

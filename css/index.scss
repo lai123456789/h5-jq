@@ -139,6 +139,20 @@ body{
           right: rem(180);
           width: rem(44);
           height: rem(48);
+          animation: trans 4s infinite linear;
+          animation-direction:alternate;//反向执行动画
+          animation-delay:2s;//延迟多少秒才执行动画
+          @keyframes trans {
+            0%{
+              transform: translateY(70%);
+            }
+            50%{
+              transform: translateY(0);
+            }
+            100%{
+              transform: translateY(50%);
+            }
+          }
         }
         .redImg{
           position: absolute;
@@ -146,6 +160,20 @@ body{
           right: rem(250);
           width: rem(30);
           height: rem(38);
+          animation: trans 3s infinite linear;
+          animation-direction:alternate;//反向执行动画
+          animation-delay:2s;//延迟多少秒才执行动画
+          @keyframes trans {
+            0%{
+              transform: translateY(70%);
+            }
+            50%{
+              transform: translateY(0);
+            }
+            100%{
+              transform: translateY(50%);
+            }
+          }
         }
         .redBagImg{
           position: absolute;
@@ -172,7 +200,7 @@ body{
           position: absolute;
           //top: 50%;
           left: 50%;
-          bottom: rem(-13);
+          bottom: rem(-12);
           transform: translate(-50%,-50%);
           text-align: center;
           width: rem(520);
@@ -215,7 +243,7 @@ body{
         }
         a:nth-of-type(3){
           img{
-            margin-top: rem(-20);
+            margin-top: rem(-27);
           }
         }
         a:nth-of-type(4){

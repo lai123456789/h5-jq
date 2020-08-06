@@ -26,42 +26,45 @@ function getCheckboxValue(){ //获取复选框选中的checkbox值
      //CheckboxValue为一个数组 即选中的checkbox的所有值
 }
 $(document).on("click",".bottomImg",function (e) {
-    let selectVal;
-    if(5>3){ //如果当前类型是单选 选择单选值方法
-        selectVal = getRadioValue()
-        if(selectVal == null || selectVal == ""){
-            alert("请先选择答案！")
-            return;
-        }
-    }else if(5>6){
-        //如果当前类型是多选 选择多选值方法（数组）
-        selectVal = getCheckboxValue()
-        if(selectVal == [] || selectVal.length == 0){
-            alert("请先选择答案！")
-            return;
-        }
-    }
-    console.log(selectVal)  //selectVal为选中的值  不管是多选还是单选 只需传该字段到后台地址即可
-    $.ajax({
-        type: "POST",
-        url: "/url.do",
-        data: selectVal,
-        dataType : "json",
-        success: function(respMsg){
-            //提交值之后后台判断对错  如果返回字段是 对则跳转下一题，错则弹出答题错误，如果全对，则弹出答题成功
-            if(){ //如果全部答对，则显示答题成功弹框
-                $(".fail-content").hide()
-                $(".main-content").show()
-                $(".modal").show()
-            }else if(){
-                //如果答题失败，则显示答题失败弹框
-                $(".fail-content").show()
-                $(".main-content").hide()
-                $(".modal").show()
-            }
-
-        }
-    });
+    $(".fail-content").show()
+    $(".main-content").hide()
+    $(".modal").show()
+    // let selectVal;
+    // if(5>3){ //如果当前类型是单选 选择单选值方法
+    //     selectVal = getRadioValue()
+    //     if(selectVal == null || selectVal == ""){
+    //         alert("请先选择答案！")
+    //         return;
+    //     }
+    // }else if(5>6){
+    //     //如果当前类型是多选 选择多选值方法（数组）
+    //     selectVal = getCheckboxValue()
+    //     if(selectVal == [] || selectVal.length == 0){
+    //         alert("请先选择答案！")
+    //         return;
+    //     }
+    // }
+    // console.log(selectVal)  //selectVal为选中的值  不管是多选还是单选 只需传该字段到后台地址即可
+    // $.ajax({
+    //     type: "POST",
+    //     url: "/url.do",
+    //     data: selectVal,
+    //     dataType : "json",
+    //     success: function(respMsg){
+    //         //提交值之后后台判断对错  如果返回字段是 对则跳转下一题，错则弹出答题错误，如果全对，则弹出答题成功
+    //         // if(){ //如果全部答对，则显示答题成功弹框
+    //         //     $(".fail-content").hide()
+    //         //     $(".main-content").show()
+    //         //     $(".modal").show()
+    //         // }else if(){
+    //         //     //如果答题失败，则显示答题失败弹框
+    //         //     $(".fail-content").show()
+    //         //     $(".main-content").hide()
+    //         //     $(".modal").show()
+    //         // }
+    //
+    //     }
+    // });
 })
 
 /**
