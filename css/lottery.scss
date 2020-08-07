@@ -15,8 +15,8 @@ body {
 
   main {
     width: 100%;
-    // min-height: rem(1288);
-    min-height: 100vh;
+    min-height: rem(1624);
+    // min-height: 100vh;
     background: url("../image/lottery/lottery_bg.png") no-repeat;
     background-size: 100% 100%;
 
@@ -45,7 +45,7 @@ body {
     .icon-three {
       width: rem(30);
       height: rem(38);
-      padding: rem(40) 0 rem(60) rem(524);
+      padding: rem(40) 0 rem(55) rem(524);
 
       img {
         width: 100%;
@@ -83,6 +83,15 @@ body {
         width: 100%;
         height: 100%;
       }
+    }
+
+    .belone {
+      text-align: center;
+      font-size: rem(24);
+      font-weight: bold;
+      color: rgba(144, 215, 255, 1);
+      padding-top: rem(521);
+      letter-spacing: rem(2);
     }
   }
 
