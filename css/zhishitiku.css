@@ -153,27 +153,28 @@ body {
       z-index: 1000; }
       .main-modal .fail-content .modalText div:nth-of-type(1) {
         position: absolute;
-        line-height: 0.3rem;
-        top: 60%;
-        left: -15%;
+        line-height: 0.16rem;
+        top: 66%;
+        left: -16%;
         transform: translate(-50, -50%); }
         .main-modal .fail-content .modalText div:nth-of-type(1) p {
-          font-size: 0.32rem;
+          font-size: 0.3rem;
           font-weight: bold;
           color: white; }
       .main-modal .fail-content .modalText div:nth-of-type(2) {
         text-align: left;
         width: 4.7rem;
         font-weight: 500;
-        line-height: 0.23rem;
         position: absolute;
         top: 76%;
         left: 8%;
         transform: translate(-50, -50%); }
         .main-modal .fail-content .modalText div:nth-of-type(2) .d2 {
-          margin-top: 0.07rem;
+          margin: -0.6rem 0 0 0.85rem;
           width: 4.44rem; }
-          .main-modal .fail-content .modalText div:nth-of-type(2) .d2 span {
+          .main-modal .fail-content .modalText div:nth-of-type(2) .d2 p {
+            width: 100%;
+            line-height: 0.4rem;
             font-size: 0.24rem;
             color: white; }
     .main-modal .fail-content .failBg {
@@ -213,20 +214,28 @@ body {
       z-index: 1000; }
       .main-modal .main-content .modalText div:nth-of-type(1) {
         position: absolute;
-        top: 74%;
-        font-size: 0.32rem;
-        font-weight: bold;
-        color: white;
-        line-height: 0.48rem; }
+        line-height: 0.16rem;
+        top: 66%;
+        left: -16%;
+        transform: translate(-50, -50%);
+        display: flex;
+        align-items: center; }
+        .main-modal .main-content .modalText div:nth-of-type(1) p {
+          font-size: 0.3rem;
+          font-weight: bold;
+          color: white; }
       .main-modal .main-content .modalText div:nth-of-type(2) {
         text-align: left;
         width: 4.44rem;
         font-weight: 500;
         line-height: 0.23rem;
         margin-top: -0.3rem; }
-        .main-modal .main-content .modalText div:nth-of-type(2) div {
-          margin-top: 0.07rem; }
-          .main-modal .main-content .modalText div:nth-of-type(2) div p {
+        .main-modal .main-content .modalText div:nth-of-type(2) .d2 {
+          margin: -0.6rem 0 0 0.85rem;
+          width: 4.44rem; }
+          .main-modal .main-content .modalText div:nth-of-type(2) .d2 p {
+            width: 100%;
+            line-height: 0.4rem;
             font-size: 0.24rem;
             color: white; }
     .main-modal .main-content .successBg {

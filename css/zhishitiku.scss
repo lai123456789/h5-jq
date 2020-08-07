@@ -205,12 +205,12 @@ body{
       z-index: 1000;
       div:nth-of-type(1){
         position: absolute;
-        line-height:rem(30);
-        top: 60%;
-        left: -15%;
+        line-height:rem(16);
+        top: 66%;
+        left: -16%;
         transform: translate(-50,-50%);
         p{
-          font-size:rem(32);
+          font-size:rem(30);
           font-weight:bold;
           color:rgba(255,255,255,1);
         }
@@ -219,15 +219,17 @@ body{
         text-align: left;
         width:rem(470);
         font-weight:500;
-        line-height:rem(23);
         position: absolute;
         top: 76%;
         left: 8%;
         transform: translate(-50,-50%);
         .d2{
-          margin-top: rem(7);
+          margin: rem(-60) 0 0 rem(85);
           width:rem(444);
-          span{
+          p{
+            width: 100%;
+            //white-space: nowrap;
+            line-height:rem(40);
             font-size:rem(24);
             color:rgba(255,255,255,1);
           }
@@ -279,11 +281,17 @@ body{
       z-index: 1000;
       div:nth-of-type(1){
         position: absolute;
-        top: 74%;
-        font-size:rem(32);
-        font-weight:bold;
-        color:rgba(255,255,255,1);
-        line-height:rem(48);
+        line-height:rem(16);
+        top: 66%;
+        left: -16%;
+        transform: translate(-50,-50%);
+        display: flex;
+        align-items: center;
+        p{
+          font-size:rem(30);
+          font-weight:bold;
+          color:rgba(255,255,255,1);
+        }
       }
       div:nth-of-type(2){
         text-align: left;
@@ -291,13 +299,18 @@ body{
         font-weight:500;
         line-height:rem(23);
         margin-top: rem(-30);
-        div{
-          margin-top: rem(7);
+        .d2{
+          margin: rem(-60) 0 0 rem(85);
+          width:rem(444);
           p{
+            width: 100%;
+            //white-space: nowrap;
+            line-height:rem(40);
             font-size:rem(24);
             color:rgba(255,255,255,1);
           }
         }
+
       }
     }
     .successBg{
