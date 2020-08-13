@@ -52,17 +52,22 @@ body {
 }
 .container .main .main-Top .loginnavbar .login .login-text input {
   width: 4.5rem;
-  height: 1rem;
-  line-height: .3rem;
+  height: .8rem;
+  /*line-height: .8rem;*/
   border-radius: .1rem;
   padding-left: .28rem;
   margin-top: .1rem;
+
+  font-size: .3rem;
+  display: flex;
+  align-items: center;
 }
 .container .main .main-Top .loginnavbar .login .login-text input:nth-child(3)::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #1D48BE;
   font-weight: 700;
   font-size: .3rem;
+
 }
 .container .main .main-Top .loginnavbar .login .phone-text input:nth-child(3)::-webkit-input-placeholder {
   /* WebKit browsers */
